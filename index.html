@@ -7,9 +7,11 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"><link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-    <meta name="format-detection" content="telephone=no">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <meta name="format-detection" content="telephone=no"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery.parallax.min.js"></script>
+    <script src="js/jquery.event.frame.js"></script>
   </head>
   <body>
       <div class="wrapper">
@@ -25,7 +27,9 @@
                 <p class="firstscreen__addtext">Помимо создания рабочего файла с маской,<br>мы покажем, как правильно ее публиковать и продвигать.</p><a class="buttonlink firstscreen__buttonlink" href="#">Хочу научиться!</a>
               </div>
             </div>
-            <div class="firstscreen__photos"><img class="firstscreen__photo1" src="img/firstscreen1.png" alt=""><img class="firstscreen__photo2" src="img/firstscreen2.png" alt=""><img class="firstscreen__photo3" src="img/firstscreen3.png" alt=""><img class="firstscreen__photoside" src="img/firstscreen_side.png" alt=""><img class="firstscreen__photomain" src="img/firstscreen_main.png" alt=""></div>
+            <div class="firstscreen__photos"><img class="firstscreen__photo1" src="img/firstscreen1.png" alt=""><img class="firstscreen__photo2" src="img/firstscreen2.png" alt=""><img class="firstscreen__photo3" src="img/firstscreen3.png" alt=""><img class="firstscreen__photoside" src="img/firstscreen_side.png" alt="">
+              <div class="firstscreen__phone"><img class="firstscreen__photomain" src="img/firstscreen_main.gif" alt=""></div>
+            </div>
           </header>
         <main class="wrapper__body">
             <section class="forwhom">
@@ -67,19 +71,37 @@
                   <li class="why__item">Многие хотят развиваться в блогинге, но для успешного развития нужно правильно продвигаться. Увы, продвижение без масок уже не работает.</li>
                   <li class="why__item">На курсе будут раскрыты все знания и фишки по созданию масок Instagram.</li>
                 </ol>
-                <div class="why__picts"><img class="why__pict1 rellax" src="img/mask1.png" data-rellax-speed="-1" alt=""><img class="why__pict2 rellax" src="img/mask2.png" data-rellax-speed="1" alt=""></div>
+                <div class="why__picts"><img class="why__pict" src="img/whypict.png" data-depth="0.2" alt=""></div>
               </div>
             </section>
             <section class="results">
               <h2 class="results__title">Вы сможете делать такие маски уже через пару дней:</h2>
               <div class="results__sliderpart"></div>
               <div class="results__slider">
-                <div class="results__slide"><img class="results__slidepict" src="img/results1.png" alt=""></div>
-                <div class="results__slide"><img class="results__slidepict" src="img/results2.png" alt=""></div>
-                <div class="results__slide"><img class="results__slidepict" src="img/results3.png" alt=""></div>
-                <div class="results__slide"><img class="results__slidepict" src="img/results1.png" alt=""></div>
-                <div class="results__slide"><img class="results__slidepict" src="img/results2.png" alt=""></div>
-                <div class="results__slide"><img class="results__slidepict" src="img/results3.png" alt=""></div>
+                <div class="results__slide">
+                  <div class="results__pictpart"><img class="results__slidepict" src="img/results1.png" alt=""></div>
+                </div>
+                <div class="results__slide">
+                  <div class="results__pictpart results__phone"><img class="results__slidepict" src="img/results2.gif" alt=""></div>
+                </div>
+                <div class="results__slide">
+                  <div class="results__pictpart"><img class="results__slidepict" src="img/results3.png" alt=""></div>
+                </div>
+                <div class="results__slide">
+                  <div class="results__pictpart"><img class="results__slidepict" src="img/results4.png" alt=""></div>
+                </div>
+                <div class="results__slide">
+                  <div class="results__pictpart"><img class="results__slidepict" src="img/results1.png" alt=""></div>
+                </div>
+                <div class="results__slide">
+                  <div class="results__pictpart"><img class="results__slidepict" src="img/results2.png" alt=""></div>
+                </div>
+                <div class="results__slide">
+                  <div class="results__pictpart"><img class="results__slidepict" src="img/results3.png" alt=""></div>
+                </div>
+                <div class="results__slide">
+                  <div class="results__pictpart"><img class="results__slidepict" src="img/results4.png" alt=""></div>
+                </div>
               </div>
             </section>
             <section class="about">
@@ -173,7 +195,7 @@
               </div>
             </section>
             <section class="create">
-              <div class="create__pictpart"><img class="create__pict" src="img/createpict.png" alt=""></div>
+              <div class="create__pictpart"><img class="create__pict" src="img/createpict.gif" alt=""></div>
               <div class="create__info">
                 <h2 class="create__title">Создайте маску на миллион</h2>
                 <p class="create__text">После прохождения курса вы научитесь создавать маски для брендов в Instagram и зарабатывать на этом из любой точки мира. После завершения курса, вы получите именной сертификат.</p>
