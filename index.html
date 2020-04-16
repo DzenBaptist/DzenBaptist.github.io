@@ -10,8 +10,7 @@
     <meta name="format-detection" content="telephone=no"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
-    <script src="js/jquery.event.frame.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   </head>
   <body>
       <div class="wrapper">
@@ -24,7 +23,7 @@
               <div class="firstscreen__bottominfo">
                 <h2 class="firstscreen__subtitle">Программа курса</h2>
                 <p class="firstscreen__addtext">В ходе обучения мы рассмотрим все функции<br>для создания Инстаграм маски любой сложности.</p>
-                <p class="firstscreen__addtext">Помимо создания рабочего файла с маской,<br>мы покажем, как правильно ее публиковать и продвигать.</p><a class="buttonlink firstscreen__buttonlink" href="#">Хочу научиться!</a>
+                <p class="firstscreen__addtext">Помимо создания рабочего файла с маской,<br>мы покажем, как правильно ее публиковать и продвигать.</p><a class="buttonlink firstscreen__buttonlink" href="#buy">Хочу научиться!</a>
               </div>
             </div>
             <div class="firstscreen__photos"><img class="firstscreen__photo1" src="img/firstscreen1.png" alt=""><img class="firstscreen__photo2" src="img/firstscreen2.png" alt=""><img class="firstscreen__photo3" src="img/firstscreen3.png" alt=""><img class="firstscreen__photoside" src="img/firstscreen_side.png" alt="">
@@ -32,7 +31,7 @@
             </div>
           </header>
         <main class="wrapper__body">
-            <section class="forwhom">
+            <section class="forwhom" id="forwhom">
               <h2 class="forwhom__title">Кому идеально подойдет этот курс</h2>
               <h3 class="forwhom__subtitle">PRO. Маски в Instagram</h3>
               <div class="forwhom__content">
@@ -59,7 +58,7 @@
                 </div>
               </div>
             </section>
-            <section class="why">
+            <section class="why" id="why">
               <h2 class="why__title">Почему это точно востребовано на рынке?</h2>
               <div class="why__content">
                 <ol class="why__list">
@@ -71,7 +70,7 @@
                   <li class="why__item">Многие хотят развиваться в блогинге, но для успешного развития нужно правильно продвигаться. Увы, продвижение без масок уже не работает.</li>
                   <li class="why__item">На курсе будут раскрыты все знания и фишки по созданию масок Instagram.</li>
                 </ol>
-                <div class="why__picts"><img class="why__pict" src="img/whypict.png" data-depth="0.2" alt=""></div>
+                <div class="why__picts" id="masks"><img class="why__pict" src="img/mask1.png" data-depth-x="0.80" data-depth-y="-0.80" alt=""><img class="why__pict" src="img/mask2.png" data-depth-x="-0.40" data-depth-y="0.40" alt=""></div>
               </div>
             </section>
             <section class="results">
@@ -128,7 +127,7 @@
                 </div>
               </div>
             </section>
-            <section class="program">
+            <section class="program" id="program">
               <h2 class="program__title">Программа кура PRO. Маски Instagram 2020</h2>
               <div class="program__content">
                 <div class="program__column">
@@ -170,7 +169,7 @@
                     </ol>
                   </div>
                 </div>
-              </div><a class="buttonlink program__buttonlink" href="#">Пройти курс</a>
+              </div><a class="buttonlink program__buttonlink" href="#buy">Пройти курс</a>
             </section>
             <section class="faq">
               <div class="faq__content">
@@ -182,7 +181,7 @@
                 <h3 class="faq__subtitle">Почему именно наш курс эффективен?</h3>
                 <p class="faq__text">У нас богатый опыт моделирования, анимировая 3D обьектов, создания компьютерной графикой для киноиндустрии. Мы знаем как создавать крутые эффекты, которые станут виральными и привлекут к Вашему аккаунту много новой аудитории. Вы получите полноценные практические знания и никакой теории и воды.</p>
               </div>
-              <div class="faq__picts"><img class="faq__pict1 rellax" src="img/faq1.png" data-rellax-speed="-1" alt=""><img class="faq__pict2 rellax" src="img/faq2.png" data-rellax-speed="1" alt=""></div>
+              <div class="faq__picts" id="faq"><img class="faq__pict2 rellax" src="img/faq2.png" data-depth-x="0.40" data-depth-y="-0.80" alt=""><img class="faq__pict1 rellax" src="img/faq1.png" data-depth-x="0.80" data-depth-y="0.40" alt=""></div>
             </section>
             <section class="earnings">
               <h2 class="earnings__title">Умение создавать маски позволит вам зарабатывать от 700 $ в месяц!</h2>
@@ -201,7 +200,7 @@
                 <p class="create__text">После прохождения курса вы научитесь создавать маски для брендов в Instagram и зарабатывать на этом из любой точки мира. После завершения курса, вы получите именной сертификат.</p>
               </div>
             </section>
-            <section class="productform">
+            <section class="productform" id="productform">
               <h2 class="productform__title">Формат курса</h2>
               <div class="productform__content">
                 <div class="productform__info">
@@ -225,21 +224,29 @@
                 <div class="productform__picturepart"><img class="productform__picture" src="img/productform.png" alt=""></div>
               </div>
             </section>
-            <div class="lern">
+            <div class="lern" id="buy">
               <div class="lern__content">
                 <h2 class="lern__title">КУРС PRO.Маски Instagram 2020.<br>Бизнес под ключ.</h2>
                 <p class="lern__text">Используйте уникальную возможность заработать и прокачать свой блог с актуальными в 2020 году инструментами.</p>
                 <p class="lern__price">1890 ₽</p>
-                <p class="lern__price lern__price_old">2690 ₽</p><a class="buttonlink lern__buttonlink" href="#">Хочу научиться!</a>
+                <p class="lern__price lern__price_old">2690 ₽</p><a class="buttonlink lern__buttonlink">Хочу научиться!</a>
               </div>
             </div>
             <section class="contacts">
               <h2 class="contacts__title">Контакты</h2>
-              <p class="contacts__text">Если у тебя остались вопросы или возникли проблемы с&nbsp;покупкой курса, напиши нам в техническую потдержку</p><a class="buttonlink buttonlink_empty contacts__buttlonlink" href="#">Техническая поддержка</a>
+              <p class="contacts__text">Если у тебя остались вопросы или возникли проблемы с&nbsp;покупкой курса, напиши нам в техническую потдержку</p><a class="buttonlink buttonlink_empty contacts__buttlonlink">Техническая поддержка</a>
             </section>
         </main>
           <section class="subscribe">
-            <h2 class="subscribe__title">Подпишись и первым узнай об акциях и скидках!</h2><a class="buttonlink buttonlink_empty subscribe__buttlonlink" href="#">Техническая поддержка</a>
+            <nav class="subscribe__content"><a class="subscribe__link" href="/">PRO.Маски в Instagram</a>
+              <ul class="subscribe__list">
+                <li class="subscribe__item"><a class="subscribe__link" href="#forwhom">Для кого?</a></li>
+                <li class="subscribe__item"><a class="subscribe__link" href="#why">Зачем?</a></li>
+                <li class="subscribe__item"><a class="subscribe__link" href="#program">Программа курса</a></li>
+                <li class="subscribe__item"><a class="subscribe__link" href="#productform">Формат курса</a></li>
+              </ul>
+              <div class="subscribe__urlinks"><a class="subscribe__link subscribe__link_urlink" href="/">Поль зовательское соглашение</a><a class="subscribe__link subscribe__link_urlink" href="/">Политика конфиденциальности</a></div>
+            </nav>
           </section>
       </div>
     <script src="js/scripts.js"></script>
