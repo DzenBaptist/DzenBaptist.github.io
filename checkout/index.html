@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="utf-8">
+   <title> </title>
+
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- CSS -->
+   <link href="../files/css/css.css" rel="stylesheet">
+   <link rel="stylesheet" href="../files/css/style.min.a2438.css">
+   <link href="../files/css/slick.css" rel="stylesheet">
+   <link rel="stylesheet" href="../files/css/animate.min.css">
+
+   <!-- JS -->
+   <script src="../files/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+   <script type="text/javascript" src="../files/js/validation.js"></script>
+
+   <script type="text/javascript" src="../files/js/jquery.js"></script>
+
+   <script type="text/javascript" src="../files/js/jquery-migrate.min.js"></script>
+   <script type="text/javascript" src="../files/js/navigation.js"></script>
+   <script type="text/javascript" src="../files/js/skip-link-focus-fix.js"></script>
+   <script type="text/javascript" src="../files/js/slick.min.js"></script>
+   <script defer src="../files/js/app.min.9bf3d.js"></script>
+   <script src="../files/js/cart.js"></script>
+   <!-- Yandex.Metrika counter -->
+
+   <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+         m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(62016757, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+      });
+   </script>
+
+   <noscript><div><img src="https://mc.yandex.ru/watch/62016757" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+   <!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+
+   <script>
+      var formIsSubmitted = false;
+   </script>
+
+   <script type="text/javascript" src="../files/js/unload_submit.js"></script>
+
+   <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header__wrapper">
+         <button class="menu__btn"></button>
+         <a href="../index.html" class="logo" itemprop="url">
+            <img itemprop="image" src="../files/img/logo-header-white.svg" alt
+               data-src="/files/my_starvit_1/img/logo-white.svg">
+         </a>
+
+         <nav class="menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <button class="menu__btn menu__btn--close"></button>
+            <ul id="main-menu" class="menu__list">
+               <li id="menu-item-788"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-788 menu__item menu__item--active">
+                  <a href="../faq/index.html" itemprop="url">FAQ</a></li>
+               <li id="menu-item-792"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+                     href="../delivery/index.html" itemprop="url">Оплата и доставка</a></li>
+               <li id="menu-item-792"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+                     href="../return/index.html" itemprop="url">Возврат</a></li>
+               <li id="menu-item-792"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+                     href="../certificate/index.html" itemprop="url">Исследования</a></li>
+               <li id="menu-item-792"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+                     href="../contacts/index.html" itemprop="url">Контакты</a></li>
+            </ul>
+         </nav>
+
+         <div class="header__links">
+            <div class="header__order">
+               <a href="index.html"
+                  style="text-decoration: none;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;"
+                  class="header__order_btn" itemprop="url">Оформить заказ</a>
+               <img itemprop="image" src="../files/img/header-fast-tube.png"
+                  srcset="../files/img/header-fast-tube%25402x.png 2x" alt>
+            </div>
+            <a href="index.html#" itemprop="url" class="header__cart js-preloader">
+               <img itemprop="image" src="../files/img/cart-icon.svg" alt>
+            </a>
+         </div>
+      </div>
+   </header>
+   <main>
+      <section class="checkout">
+         <div class="checkout__wrapper">
+            <div class="checkout__form">
+               <form name="checkout" method="post" class="checkout checkout__order orderformcdn" action="../order.php"
+                  novalidate="novalidate">
+                  <div class="checkout__order">
+                     <h2 class="checkout__title">Оформление заказа</h2>
+                     <div class="checkout__order_wrapper">
+                        <p class="checkout__order_title">Данные получателя</p>
+                        <div class="checkout__order_inputs">
+                           <input type="text" placeholder="Введите адрес" id="address" name="address" required
+                              autocomplete="off" class="suggestions-input" style="box-sizing: border-box;">
+                           <div class="suggestions-wrapper">
+                              <span class="suggestions-addon" data-addon-type="spinner"
+                                 style="left: -43px; top: 11px; height: 42px; width: 42px;"></span>
+                              <ul class="suggestions-constraints" style="left: -563px; top: 32px;"></ul>
+                              <div class="suggestions-suggestions"
+                                 style="position: absolute; display: none; left: -584px; top: 53px; width: 584px;">
+                              </div>
+                           </div>
+                           <input type="text" placeholder="Имя и фамилия получателя" name="name" value="" required>
+                           <p class="checkout__notice">Введите корректные данные</p>
+                           <div class="checkout__order_inputs-wrap">
+                              <div class="checkout__order_inputs-wrap_item">
+                                 <input class="js-checkout-phone" type="text" placeholder="Телефон" id="phone" value=""
+                                    required name="phone" im-insert="true">
+                                 <div class="visually-hidden">1</div>
+                                 <p class="checkout__notice">Введите корректные данные</p>
+                              </div>
+                              <input class="js-checkout-phone" type="text" placeholder="Телефон" id="billing_phone"
+                                 name="billing_phone" style="display: none">
+                              <div class="checkout__order_inputs-wrap_item">
+                                 <input type="text" placeholder="Email" id="email" name="email" value="" required>
+                                 <p class="checkout__notice">Введите корректные данные</p>
+                              </div>
+                              <input type="text" placeholder="Email" id="billing_email" name="billing_email"
+                                 style="display:none;">
+                           </div>
+                        </div>
+                        <p class="checkout__order_title">Способы доставки</p>
+                        <p class="form-row " id="billing_state_field" data-priority="">
+                        </p>
+                        <div class="checkout__order_select">
+                           <button class="checkout__order_select_btn" type="button"></button>
+                           <div class="checkout__order_select-wrap">
+                              <div class="checkout__order_select_item">
+                                 <h4 class="checkout__order_select_item_title">Способы доставки</h4>
+                              </div>
+                           </div>
+                           <div class="checkout__order_select_items">
+                              <div class="checkout__order_select_item" id="courier">
+                                 <h4 class="checkout__order_select_item_title">Курьерская доставка</h4>
+                                 <p class="checkout__order_select_item_descr">
+                                    <span class="cost">Бесплатно</span> | от <span class="period">2 рабочих дней</span>
+                                 </p>
+                              </div>
+                              <div class="checkout__order_select_item" id="rupost">
+                                 <h4 class="checkout__order_select_item_title">Доставка Почтой России</h4>
+                                 <p class="checkout__order_select_item_descr">
+                                    <span class="cost">Бесплатно</span> | от <span class="period">2 рабочих дней</span>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <p class="checkout__order_title" style="margin-top:30px">Способы оплаты</p>
+                        <div class="checkout__order_pay">
+                           <div class="checkout__order_pay_item">
+                              <input id="payment_method_cod" type="radio" class="input-radio" name="payment_method"
+                                 value="cod" checked>
+                              <label for="payment_method_cod" class="checkout__form_pay_title">
+                                 Оплата при доставке </label>
+                           </div>
+                           <div class="checkout__order_pay_item">
+                              <input id="payment_method_BankCard" type="radio" class="input-radio" name="payment_method"
+                                 value="BankCard" data-order_button_text="">
+                              <label for="payment_method_BankCard" class="checkout__form_pay_title">
+                                 Банковская карта </label>
+                           </div>
+                        </div>
+                        <button type="submit" class="checkout__order_send">Оформить заказ</button>
+                     </div>
+                     <div class="checkout__info_icons">
+                        <div class="checkout__info_icon">
+                           <img src="../files/img/checkout-info-icon-1.svg" alt="" width="21" height="28">
+                           <p>Натуральный <br> состав</p>
+                        </div>
+                        <div class="checkout__info_icon">
+                           <img src="../files/img/checkout-info-icon-2.svg" alt="" width="37" height="36">
+                           <p>Бесплатная <br> доставка</p>
+                        </div>
+                        <div class="checkout__info_icon">
+                           <img src="../files/img/checkout-info-icon-3.svg" alt="" width="23" height="25">
+                           <p>Товар <br> сертифицирован</p>
+                        </div>
+                     </div>
+                  </div>
+                  <input type="hidden" name="product_count" id="product_count" value="1">
+                  <input type="hidden" name="number_product" value="5254">
+               </form>
+               <div class="checkout__sidebar">
+                  <h2 class="checkout__title">Ваша корзина</h2>
+                  <div class="checkout__sidebar_wrapper">
+                     <div class="checkout__cart">
+                        <div class="cart__inner orderformcdn">
+                           <div class="checkout__cart_item cart_item" data-name='vitaminCoffee' data-quant="1"
+                              data-price="350">
+                              <a class="checkout__cart_item_remove" aria-label="Удалить эту позицию"
+                                 data-product_id="1000248" data-product_sku="000003"></a>
+                              <div class="checkout__cart_item_img">
+                                 <a href="index.html#"><img width="199" height="81" src="../files/img/starvit-coffee.png"
+                                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""></a>
+                              </div>
+                              <h4 class="checkout__cart_item_title"><a href="index.html#" class="cart__item_title">NOOTRIS с
+                                    кофеином</a></h4>
+                              <p class="checkout__cart_item_descr">Vitamin Energy</p>
+                              <div class="checkout__cart_item_price-block">
+                                 <p class="checkout__cart_item_price"><span>
+                                       <span class="woocommerce-Price-amount amount"><span
+                                             class="woocommerce-Price-currencySymbol">₽</span><b></b></span></span> руб.
+                                 </p>
+                                 <div class="checkout__cart_item_price-change">
+                                    <div class="cart__item_quantity_btn_wrap">
+                                       <button type="button"
+                                          class="checkout__cart_item_price-change-del cart__item_quantity_btn  cart__item_quantity_btn--del"></button>
+                                    </div>
+                                    <input type="number" class="cart__item_quantity_input input-text qty text" step="1"
+                                       min="0" max="" value="1" title="Кол-во" size="4" inputmode="numeric">
+                                    <div class="cart__item_quantity_btn_wrap">
+                                       <button type="button"
+                                          class="checkout__cart_item_price-change-add cart__item_quantity_btn  cart__item_quantity_btn--add"></button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="checkout__cart_item cart_item" data-name='vitaminGinseng' data-quant="1"
+                              data-price="350">
+                              <a class="checkout__cart_item_remove" aria-label="Удалить эту позицию"
+                                 data-product_id="1000247" data-product_sku="000004"></a>
+                              <div class="checkout__cart_item_img">
+                                 <a href="index.html#"><img width="199" height="81" src="../files/img/starvit-zhenshen.png"
+                                       class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""></a>
+                              </div>
+                              <h4 class="checkout__cart_item_title"><a href="index.html#" class="cart__item_title">NOOTRIS с
+                                    женьшенем</a></h4>
+                              <p class="checkout__cart_item_descr">Vitamin Energy</p>
+                              <div class="checkout__cart_item_price-block">
+                                 <p class="checkout__cart_item_price"><span>
+                                       <span class="woocommerce-Price-amount amount"><span
+                                             class="woocommerce-Price-currencySymbol">₽</span><b></b></span></span> руб.
+                                 </p>
+                                 <div class="checkout__cart_item_price-change">
+                                    <div class="cart__item_quantity_btn_wrap">
+                                       <button type="button"
+                                          class="checkout__cart_item_price-change-del cart__item_quantity_btn  cart__item_quantity_btn--del"></button>
+                                    </div>
+                                    <input type="number" class="cart__item_quantity_input input-text qty text" step="1"
+                                       min="0" max="" value="1"
+                                       title="Кол-во" size="4" inputmode="numeric">
+                                    <div class="cart__item_quantity_btn_wrap">
+                                       <button type="button"
+                                          class="checkout__cart_item_price-change-add cart__item_quantity_btn  cart__item_quantity_btn--add"></button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="checkout__info">
+                        <div class="checkout__info_row">
+                           <p class="checkout__info_row_text checkout__info_row_left">2 товара</p>
+                           <p class="checkout__info_row_text checkout__info_row_right"><span
+                                 class="woocommerce-Price-amount amount"><span
+                                    class="woocommerce-Price-currencySymbol">₽</span><b style="font-weight: 400;"></b></span></p>
+                        </div>
+                        <div class="checkout__info_row">
+                           <p class="checkout__info_row_text checkout__info_row_left">Доставка</p>
+                           <p class="checkout__info_row_text checkout__info_row_right checkout__info_row_text--green">
+                              Бесплатно
+                           </p>
+                        </div>
+                        <div class="checkout__info_row checkout__info_row--last">
+                           <p class="checkout__info_row_text checkout__info_row_left">Итого</p>
+                           <p class="checkout__info_row_text checkout__info_row_right"><strong><span
+                                    class="woocommerce-Price-amount amount"><span
+                                       class="woocommerce-Price-currencySymbol">₽</span><b></b></span></strong> </p>
+                        </div>
+                     </div>
+                     <button type="button" class="checkout__go-to-order js-checkout-go-order">перейти к
+                        оформлению</button>
+                  </div>
+                  <div class="cart__sticker cart__sticker--mobile">
+                     <p class="cart__sticker_title">
+                        покупай starvit <br>
+                        максимально выгодно!
+                     </p>
+                     <p class="cart__sticker_descr">
+                        Покупая от 2х туб — цена заметно ниже! 350 ₽ за <br> тубу! А при покупке от 4х туб — 322 ₽ за
+                        тубу!
+                     </p>
+                     <div class="cart__sticker_items">
+                        <div class="cart__sticker_item">
+                           <div class="cart__sticker_item_left">
+                              <p>От <span>2<sup>x</sup></span></p>
+                           </div>
+                           <img src="../files/img/cart-mobile-sticker.png" alt="" class="cart__sticker_img">
+                           <div class="cart__sticker_item_right">
+                              <p>цена <br> за тубу</p>
+                              <span class="cart__sticker_item_price">350₽</span>
+                           </div>
+                        </div>
+                        <div class="cart__sticker_item">
+                           <div class="cart__sticker_item_left">
+                              <p>От <span>4<sup>x</sup></span></p>
+                           </div>
+                           <img src="../files/img/cart-mobile-sticker2.png" alt=""
+                              class="cart__sticker_img cart__sticker_img--2">
+                           <div class="cart__sticker_item_right">
+                              <p>цена <br> за тубу</p>
+                              <span class="cart__sticker_item_price">322₽</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section class="cart cart--empty">
+         <div class="cart__wrapper">
+            <div class="cart__emty">
+               <svg>
+                  <use xlink:href="../files/img/sprite.svg#icons--shopping-bag" />
+               </svg>
+               <h2 class="cart__emty_title">Ваша корзина пока пуста</h2>
+            </div>
+            <div class="cart__content  cart__content--add  cart__content--empty">
+               <div class="cart__content  cart__content--add  cart__content--empty">
+                  <div class="cart__block cart__block--add">
+                     <h2 class="cart__title">Возможно вас заинтересует:</h2>
+                     <div class="cart__items">
+                        <div class="cart__item cart__item_vitaminCoffee">
+                           <div class="cart__item_img"><img width="199" height="81"
+                                 src="../files/img/starvit-coffee.png"
+                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt></div>
+                           <div class="cart__item_content">
+                              <p class="cart__item_title">NOOTRIS с кофеином</p>
+                              <p class="cart__item_descr">Vitamin Energy</p>
+                              <p class="cart__item_price">490 руб.</p>
+                           </div>
+                           <div class="cart__item_add">
+                              <a data-quantity="1" class="cart__item_add-btn  cart__item_add-btn--left">Добавить В
+                                 корзину</a>
+                           </div>
+                        </div>
+                        <div class="cart__item cart__item_vitaminGinseng">
+                           <div class="cart__item_img"><img width="199" height="81"
+                                 src="../files/img/starvit-zhenshen.png"
+                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt></div>
+                           <div class="cart__item_content">
+                              <p class="cart__item_title">NOOTRIS с женьшенем</p>
+                              <p class="cart__item_descr">Vitamin Energy</p>
+                              <p class="cart__item_price">490 руб.</p>
+                           </div>
+                           <div class="cart__item_add">
+                              <a class="cart__item_add-btn  cart__item_add-btn--left">Добавить В корзину</a>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="cart__descr">Добавь в корзину для бесплатной доставки</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+
+   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+      <div class="footer__head">
+
+         <div class="footer__wrapper">
+            <div class="footer__callback">
+               <p itemprop="text" class="footer__callback_title">Перезвоните мне</p>
+               <div class="footer__callback_form">
+                  <a href="index.html"
+                     style="text-decoration: none;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;"
+                     itemprop="accessibilityControl" class="footer__callback_button" type="button">Связаться со
+                     мной</a>
+                  <p itemprop="text" class="footer__callback_title footer__callback_title--thanks js-footer-thanks">
+                     Спасибо,
+                     мы свяжемся с вами в ближайшее время</p>
+               </div>
+            </div>
+
+            <div class="footer__info">
+               <div class="footer__info_card">
+                  <div class="footer__info_img">
+                     <img src="../files/img/visa.png" itemprop="image" alt>
+                     <img src="../files/img/mastercard.png" itemprop="image" alt>
+                     <img src="../files/img/mir.png" itemprop="image" alt>
+                  </div>
+                  <p itemprop="text">NOOTRIS принимает к оплате карты</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer__main">
+         <div class="footer__block-top">
+            <div class="footer__menu">
+               <ul class="footer__menu_list js-footer-idex-link" itemscope
+                  itemtype="http://schema.org/SiteNavigationElement">
+                  <li class="footer__menu_item">
+                     <a href="../faq/index.html" itemprop="url">Как это работает?</a>
+                  </li>
+                  <li class="footer__menu_item">
+                     <a href="../index.html#composition" itemprop="url">Звёздный состав</a>
+                  </li>
+               </ul>
+
+               <ul class="footer__menu_list footer__menu_list--main" itemscope
+                  itemtype="http://schema.org/SiteNavigationElement">
+                  <li class="footer__menu_item">
+                     <a href="../faq/index.html" itemprop="url">FAQ</a>
+                  </li>
+                  <li class="footer__menu_item">
+                     <a href="../delivery/index.html" itemprop="url">Доставка</a>
+                  </li>
+                  <li class="footer__menu_item">
+                     <a href="../return/index.html" itemprop="url">Возврат</a>
+                  </li>
+                  <li class="footer__menu_item">
+                     <a href="../certificate/index.html" itemprop="url">Сертификаты</a>
+                  </li>
+                  <li class="footer__menu_item">
+                     <a href="../contacts/index.html" itemprop="url">Контакты</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="footer__social">
+               <div class="footer__social_links">
+                  <a rel="nofollow" itemprop="url" class="footer__social_link  footer__social_link--first">
+                     <img itemprop="image" src="../files/img/foot_wat.png" alt>
+                     <p itemprop="name">Есть вопросы? Напишите нам на WhatsApp!</p>
+                  </a>
+
+                  <a rel="nofollow" itemprop="url" class="footer__social_link  footer__social_link--last">
+                     <img itemprop="image" src="../files/img/foot_insta.png" alt>
+                     <p itemprop="name">Присоединяйся к нашему сообществу</p>
+                  </a>
+               </div>
+
+               <div class="footer__social_quiz">
+                  <a rel="nofollow" itemprop="url">Пройти опрос</a>
+                  <p itemprop="name">Расскажи о своих впечатлениях о NOOTRIS, чтобы мы сделали продукт лучше</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="footer__block-bottom">
+            <div class="footer__privacy">
+               <div class="footer__privacy_question">
+                  <p itemprop="text">Есть вопросы?</p>
+               </div>
+            </div>
+
+            <div class="footer__copyright">
+               <a itemprop="url" href="../index.html">
+                  <img itemprop="image" src="../files/img/logo-white.png" alt>
+               </a>
+               <p itemprop="copyrightHolder">Copyright © 2020 Nootris</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <div class="quick-order js-preloader quick-order--hide">
+      <div class="quick-order__wrapper quick-order__wrapper--short">
+         <div class="quick-order__content quick-order__content--short">
+            <div class="quick-order__block quick-order__block--desktop">
+               <p class="quick-order__text  quick-order__text--red">Закажи <br> сейчас!</p>
+            </div>
+            <div class="quick-order__block">
+               <p class="quick-order__text-title">Закажи сейчас!</p>
+               <p class="quick-order__text">2 тубы со скидкой</p>
+            </div>
+            <div class="quick-order__block quick-order__block--price">
+               <p class="quick-order__price">700 р</p>
+            </div>
+            <div class="quick-order__img">
+               <img src="../files/img/quick-order-1.png" alt>
+               <img src="../files/img/quick-order-2.png" alt>
+            </div>
+         </div>
+         <a href="index.html" class="quick-order__link" data-products_amount="2">
+            <span data-products_amount="2">Быстрый</span> заказ
+         </a>
+      </div>
+   </div>
+
+   <div class="overlay">
+      <div class="overlay__content"></div>
+   </div>
+
+</body>
+
+</html>

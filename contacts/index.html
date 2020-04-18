@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title> </title>
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS -->
+  <link href="../files/css/css.css" rel="stylesheet">
+  <link rel="stylesheet" href="../files/css/style.min.a2438.css">
+  <link href="../files/css/slick.css" rel="stylesheet">
+  <link rel="stylesheet" href="../files/css/animate.min.css">
+  <link rel="stylesheet" href="../files/css/jquery.modal.min.css">
+
+
+  <!-- JS -->
+  <script src="../files/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../files/js/validation.js"></script>
+
+  <script type="text/javascript" src="../files/js/jquery.js"></script>
+
+  <script type="text/javascript" src="../files/js/jquery-migrate.min.js"></script>
+  <script type="text/javascript" src="../files/js/navigation.js"></script>
+  <script type="text/javascript" src="../files/js/skip-link-focus-fix.js"></script>
+  <script type="text/javascript" src="../files/js/slick.min.js"></script>
+  <script defer src="../files/js/app.min.9bf3d.js"></script>
+  <script src="../files/js/cart.js"></script>
+
+  <!-- Yandex.Metrika counter -->
+
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(62016757, "init", {
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+    });
+  </script>
+
+  <noscript><div><img src="https://mc.yandex.ru/watch/62016757" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+
+  <script>
+    var formIsSubmitted = false;
+  </script>
+
+  <script type="text/javascript" src="../files/js/unload_submit.js"></script>
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="header__wrapper">
+      <button class="menu__btn"></button>
+      <a href="../index.html" class="logo" itemprop="url">
+        <img itemprop="image" src="../files/img/logo-header-white.svg" alt data-src="/files/my_starvit_1/img/logo-white.svg">
+      </a>
+
+      <nav class="menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <button class="menu__btn menu__btn--close"></button>
+        <ul id="main-menu" class="menu__list">
+          <li id="menu-item-788"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-788 menu__item menu__item--active">
+            <a href="../faq/index.html" itemprop="url">FAQ</a></li>
+          <li id="menu-item-792"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+              href="../delivery/index.html" itemprop="url">Оплата и доставка</a></li>
+          <li id="menu-item-792"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+              href="../return/index.html" itemprop="url">Возврат</a></li>
+          <li id="menu-item-792"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+              href="../certificate/index.html" itemprop="url">Исследования</a></li>
+          <li id="menu-item-792"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792 menu__item"><a
+              href="index.html" itemprop="url">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__links">
+        <div class="header__order">
+          <a href="../checkout/index.html"
+            style="text-decoration: none;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;"
+            class="header__order_btn" itemprop="url">Оформить заказ</a>
+          <img itemprop="image" src="../files/img/header-fast-tube.png" srcset="../files/img/header-fast-tube%25402x.png 2x" alt>
+        </div>
+        <a href="../checkout/index.html" itemprop="url" class="header__cart js-preloader">
+          <img itemprop="image" src="../files/img/cart-icon.svg" alt>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="page-faq page-faq--contacts">
+      <div class="page-faq__promo"></div>
+      <div class="page-faq__wrapper" itemscope itemtype="http://schema.org/Organization">
+         <div class="page-faq__row">
+            <h1 class="page-faq__title">Контакты</h1>
+            <div class="page-faq__descr_wrap">
+               <p class="page-faq__descr">Если Вы не нашли ответ на интересующий вопрос, напишите нам по адресу:
+                  <span itemprop="email"><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="0b62656d644b6672787f6a797d627f25797e">[email&#160;protected]</a></span> или позвоните по телефону: <br><span itemprop="telephone">8(800)550-79-24</span>. Звонок бесплатный.
+               </p>
+            </div>
+         </div>
+         <div class="page-contacts">
+            <div class="page-contacts__head">
+               <h2 class="page-contacts__title">Быстрая <br> поддержка</h2>
+               <p class="page-contacts__descr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="postalCode">129272</span>,
+                  <span itemprop="addressLocality">Москва</span>,
+                  <span itemprop="streetAddress">ул. Трифоновская д.57А</span>
+               </p>
+            </div>
+            <div class="page-contacts__items">
+               <div class="page-contacts__item">
+                  <img src="../files/img/icon_location.svg" alt>
+                  <h3 class="page-contacts__item_title">Посетите <br> нас</h3>
+                  <h5 class="page-contacts__item_subtitle">Центральный офис</h5>
+                  <p class="page-contacts__item_descr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                     <span itemprop="postalCode">129272</span>,
+                     <span itemprop="addressLocality">Москва</span>,
+                     <span itemprop="streetAddress">ул. Трифоновская д.57А</span>
+                  </p>
+                  <h5 class="page-contacts__item_subtitle">Производство</h5>
+                  <p class="page-contacts__item_descr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                     <span itemprop="postalCode">143130</span>,
+                     <span itemprop="addressCountry">Россия</span>,
+                     <span itemprop="addressRegion">Московская область, Рузский район</span>,
+                     <span itemprop="addressLocality">посёлок Тучково</span>,
+                     <span itemprop="streetAddress">микрорайон Восточный, дом 6/1</span>
+                  </p>
+               </div>
+               <div class="page-contacts__item">
+                  <img src="../files/img/icon_call.svg" alt>
+                  <h3 class="page-contacts__item_title">Позвоните <br> нам</h3>
+                  <h5 class="page-contacts__item_subtitle">Центральный офис</h5>
+                  <p class="page-contacts__item_descr">
+                     <a href="tel:"><span itemprop="telephone">8 (495) 357 33 01</span></a>
+                  </p>
+                  <h5 class="page-contacts__item_subtitle">Колл-центр</h5>
+                  <p class="page-contacts__item_descr">
+                     <a href="tel:"><span itemprop="telephone">8 (800) 550-79-24</span></a>
+                  </p>
+               </div>
+               <div class="page-contacts__item">
+                  <img src="../files/img/icon_mail.svg" alt>
+                  <h3 class="page-contacts__item_title">Напишите <br> нам</h3>
+                  <p class="page-contacts__item_descr">
+                     <a href="mailto:"><span itemprop="email"><span class="__cf_email__" data-cfemail="dfb7bab3b3b09fb2a6acabbeada9b6abf1adaa">[email&#160;protected]</span></span></a>
+                  </p>
+                  <div class="page-contacts__social">
+                     <div class="social__items">
+                        <a rel="nofollow" href="https://www.facebook.com/mystarvit" class="order__social_item">
+                           <svg>
+                              <use xlink:href="../files/img/sprite.svg#icons--facebook"/>
+                           </svg>
+                        </a>
+                        <a rel="nofollow" href="https://twitter.com/mystarvit" class="order__social_item">
+                           <svg>
+                              <use xlink:href="../files/img/sprite.svg#icons--twitter"/>
+                           </svg>
+                        </a>
+                        <a rel="nofollow" href="https://www.instagram.com/mystarvit/" class="order__social_item">
+                           <svg>
+                              <use xlink:href="../files/img/sprite.svg#icons--instagram"/>
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="page-contacts__item">
+                  <img src="../files/img/icon_requisites.svg" alt>
+                  <h3 class="page-contacts__item_title">Реквизиты</h3>
+                  <h5 class="page-contacts__item_subtitle"><span itemprop="name">ООО «Старвит»</span></h5>
+                  <p class="page-contacts__item_descr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                     Юридический адрес:
+                     <span itemprop="postalCode">129272</span>,
+                     <span itemprop="addressLocality">Москва</span>,
+                     <span itemprop="streetAddress">ул. Трифоновская д.57А, этаж 8, оф. 8-12</span> <br>
+                     ОГРН 1197746467500 <br>
+                     ИНН/КПП 9702003168/770201001 <br>
+                     р/с 40702810800000014705 в АО Газпромбанк <br>
+                     БИК 044525823 <br>
+                     к/с 30101810200000000823 <br>
+                     КПП банка 772801001
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+  </main>
+
+
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+    <div class="footer__head">
+
+      <div class="footer__wrapper">
+        <div class="footer__callback">
+          <p itemprop="text" class="footer__callback_title">Перезвоните мне</p>
+          <div class="footer__callback_form">
+            <a href="../checkout/index.html"
+              style="text-decoration: none;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;"
+              itemprop="accessibilityControl" class="footer__callback_button" type="button">Связаться со мной</a>
+            <p itemprop="text" class="footer__callback_title footer__callback_title--thanks js-footer-thanks">Спасибо,
+              мы свяжемся с вами в ближайшее время</p>
+          </div>
+        </div>
+
+        <div class="footer__info">
+          <div class="footer__info_card">
+            <div class="footer__info_img">
+              <img src="../files/img/visa.png" itemprop="image" alt>
+              <img src="../files/img/mastercard.png" itemprop="image" alt>
+              <img src="../files/img/mir.png" itemprop="image" alt>
+            </div>
+            <p itemprop="text">NOOTRIS принимает к оплате карты</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__main">
+      <div class="footer__block-top">
+        <div class="footer__menu">
+          <ul class="footer__menu_list js-footer-idex-link" itemscope
+            itemtype="http://schema.org/SiteNavigationElement">
+            <li class="footer__menu_item">
+              <a href="../faq/index.html" itemprop="url">Как это работает?</a>
+            </li>
+            <!--
+          <li class="footer__menu_item">
+            <a href="#oneclick">Купи NOOTRIS в 1 клик!</a>
+          </li>
+          -->
+            <li class="footer__menu_item">
+              <a href="../index.html#composition" itemprop="url">Звёздный состав</a>
+            </li>
+          </ul>
+
+          <ul class="footer__menu_list footer__menu_list--main" itemscope
+            itemtype="http://schema.org/SiteNavigationElement">
+            <li class="footer__menu_item">
+              <a href="../faq/index.html" itemprop="url">FAQ</a>
+            </li>
+            <li class="footer__menu_item">
+              <a href="../delivery/index.html" itemprop="url">Доставка</a>
+            </li>
+            <li class="footer__menu_item">
+              <a href="../return/index.html" itemprop="url">Возврат</a>
+            </li>
+            <li class="footer__menu_item">
+              <a href="../certificate/index.html" itemprop="url">Сертификаты</a>
+            </li>
+            <li class="footer__menu_item">
+              <a href="index.html" itemprop="url">Контакты</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__social">
+          <div class="footer__social_links">
+            <a rel="nofollow" itemprop="url" class="footer__social_link  footer__social_link--first">
+              <img itemprop="image" src="../files/img/foot_wat.png" alt>
+              <p itemprop="name">Есть вопросы? Напишите нам на WhatsApp!</p>
+            </a>
+
+            <a rel="nofollow" itemprop="url" class="footer__social_link  footer__social_link--last">
+              <img itemprop="image" src="../files/img/foot_insta.png" alt>
+              <p itemprop="name">Присоединяйся к нашему сообществу</p>
+            </a>
+          </div>
+
+          <div class="footer__social_quiz">
+            <a rel="nofollow" itemprop="url">Пройти опрос</a>
+            <p itemprop="name">Расскажи о своих впечатлениях о NOOTRIS, чтобы мы сделали продукт лучше</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__block-bottom">
+        <div class="footer__privacy">
+          <a itemprop="url" STYLE="OPACITY:0" href="index.html#">Политика конфиденциальности</a>
+          <div class="footer__privacy_question">
+            <p itemprop="text">Есть вопросы?</p>
+          </div>
+        </div>
+
+        <div class="footer__copyright">
+          <a itemprop="url" href="../index.html">
+            <img itemprop="image" src="../files/img/logo-white.png" alt>
+          </a>
+          <p itemprop="copyrightHolder">Copyright © 2020 Nootris</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="quick-order js-preloader quick-order--hide">
+    <div class="quick-order__wrapper quick-order__wrapper--short">
+      <div class="quick-order__content quick-order__content--short">
+        <div class="quick-order__block quick-order__block--desktop">
+          <p class="quick-order__text  quick-order__text--red">Закажи <br> сейчас!</p>
+        </div>
+        <div class="quick-order__block">
+          <p class="quick-order__text-title">Закажи сейчас!</p>
+          <p class="quick-order__text">2 тубы со скидкой</p>
+        </div>
+        <div class="quick-order__block quick-order__block--price">
+          <p class="quick-order__price">700 р</p>
+        </div>
+        <div class="quick-order__img">
+          <img src="../files/img/quick-order-1.png" alt>
+          <img src="../files/img/quick-order-2.png" alt>
+        </div>
+      </div>
+      <a href="../checkout/index.html" class="quick-order__link" data-products_amount="2">
+        <span data-products_amount="2">Быстрый</span> заказ
+      </a>
+    </div>
+  </div>
+  <div class="popups popup">
+    <div class="popup__oneclick js-popup-oneclick">
+      <div class="popup__oneclick_close"></div>
+      <img src="../files/img/popup-1-click.png" alt>
+      <div class="popup__oneclick_content">
+        <p class="popup__oneclick_title">Введите телефон для быстрого оформления заказа</p>
+        <form action="#">
+          <input type="tel" placeholder="Ваш телефон" required>
+          <a href="../checkout/index.html"
+            style="text-decoration: none;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;"
+            type="submit">Оформить заказ<a>
+            </a></a></form>
+      </div>
+      <div class="popup__oneclick_done">
+        <p class="popup__oneclick_title">Спасибо, ваша заявка принята. <br> Оператор свяжется <br> с вами в ближайшее
+          время.</p>
+        <button type="button">Отлично</button>
+      </div>
+    </div>
+
+    <div class="page-sertificate__slider_item_popup js-certificate-popup--1">
+      <div class="page-sertificate__slider_item_popup_wrap">
+        <div class="page-sertificate__slider_item_popup_head">
+          <img src="../files/img/certificate-popup-logo.png" alt>
+          <a rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pubmed/29021708"> <span>Источник</span>:
+            https://www.ncbi.nlm.nih.gov/pubmed/29021708</a>
+          <div class="page-sertificate__slider_item_popup_close js-certificate-popup-close"></div>
+        </div>
+        <div class="page-sertificate__slider_item_popup_content">
+          <div class="page-sertificate__slider_item_popup_sidebar">
+            <img src="../files/img/certificate-popup-quote.png" alt>
+            <h5 class="page-sertificate__slider_item_popup_title  page-sertificate__slider_item_popup_title--mobile">
+              Влияние женьшеня на депрессию, связанную со стрессом, тревогу и гипоталамо-
+              гипофизарно-надпочечниковую ось.</h5>
+            <div class="page-sertificate__slider_item_popup_sidebar_row">
+              <p class="page-sertificate__slider_item_popup_sidebar_title">Авторы:
+              </p>
+              <div class="page-sertificate__slider_item_popup_sidebar_link">
+                <a>Lee S, </a>
+                <a>Rhee DK</a>
+              </div>
+            </div>
+            <p
+              class="page-sertificate__slider_item_popup_sidebar_title  page-sertificate__slider_item_popup_sidebar_title--gray">
+              Фармацевтическая школа, <br> Университет Сунгкьюнкван, 2066 г. <br> Сёбу-ро, Джанган-гу, Су-Вон, 16419,
+              Республика Корея.</p>
+          </div>
+          <div class="page-sertificate__slider_item_popup_text">
+            <h5 class="page-sertificate__slider_item_popup_title">Влияние женьшеня на депрессию, связанную со стрессом,
+              тревогу и гипоталамо-
+              гипофизарно-надпочечниковую ось.</h5>
+            <div class="page-sertificate__slider_item_popup_inner">
+              <div class="page-sertificate__slider_item_popup_text_wrap">
+                <p class="page-sertificate__slider_item_popup_descr">Женьшень эффективно регулирует иммунный ответ и
+                  гормональные изменения, вызванные стрессом, тем самым поддерживая гомеостаз. Помимо подавления
+                  возникновения психологических заболеваний, таких как беспокойство и депрессия, женьшень также
+                  предотвращает связанные со стрессом физиологические заболевания.</p>
+                <p class="page-sertificate__slider_item_popup_descr">Недавние исследования показали, что женьшень
+                  участвует в регулировании оси гипоталамус-гипофиз-надпочечник и контроле гормонов, что оказывает
+                  благотворное влияние на сердце и мозг, а также в случаях заболеваний костей, а также облегчает
+                  эректильную дисфункцию.</p>
+                <p class="page-sertificate__slider_item_popup_descr">Недавние исследования выявили потенциальное
+                  использование женьшеня в профилактике и лечении хронических воспалительных заболеваний, таких как
+                  диабет, ревматоидный артрит и аллергическая астма. Тем не менее, механизм, лежащий в основе
+                  воздействия женьшеня на эти заболевания, связанные со стрессом, не был полностью установлен.</p>
+                <p class="page-sertificate__slider_item_popup_descr">В этом обзоре мы сосредоточимся на путях
+                  заболевания, вызванных стрессом, чтобы определить, как женьшень действует для улучшения здоровья.
+                  Центральным моментом нашего обсуждения является то, как этот эффективный и стабильный терапевтический
+                  агент снимает тревогу и депрессию, вызванную стрессом, и уменьшает воспалительные заболевания.</p>
+              </div>
+              <img src="../files/img/certificate-popup-img-1.png" alt>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-sertificate__slider_item_popup js-certificate-popup--2">
+      <div class="page-sertificate__slider_item_popup_wrap">
+        <div class="page-sertificate__slider_item_popup_head">
+          <img src="../files/img/certificate-popup-logo.png" alt>
+          <a rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pubmed/29021708"> <span>Источник</span>:
+            https://www.ncbi.nlm.nih.gov/pubmed/18681988</a>
+          <div class="page-sertificate__slider_item_popup_close js-certificate-popup-close"></div>
+        </div>
+        <div class="page-sertificate__slider_item_popup_content">
+          <div class="page-sertificate__slider_item_popup_sidebar">
+            <img src="../files/img/certificate-popup-quote.png" alt>
+            <h5 class="page-sertificate__slider_item_popup_title  page-sertificate__slider_item_popup_title--mobile">
+              Сочетанное воздействие L-теанина и кофеина на когнитивные функции и настроение.</h5>
+            <div class="page-sertificate__slider_item_popup_sidebar_row">
+              <p class="page-sertificate__slider_item_popup_sidebar_title">Авторы:
+              </p>
+              <div class="page-sertificate__slider_item_popup_sidebar_link">
+                <a>Оуэн Г. Н., </a> <br>
+                <a>Парнелл Х., </a> <br>
+                <a>Де Брюин Э. А., </a> <br>
+                <a>Райкрофт Дж . А.</a>
+              </div>
+            </div>
+            <p
+              class="page-sertificate__slider_item_popup_sidebar_title  page-sertificate__slider_item_popup_sidebar_title--gray">
+              Unilever Research and Development, Колворт Хаус, Шарнбрук, Бедфорд, Великобритания</p>
+          </div>
+          <div class="page-sertificate__slider_item_popup_text">
+            <h5 class="page-sertificate__slider_item_popup_title">Сочетанное воздействие L-теанина и кофеина на
+              когнитивные функции и настроение.</h5>
+            <div class="page-sertificate__slider_item_popup_inner">
+              <div class="page-sertificate__slider_item_popup_text_wrap">
+                <p class="page-sertificate__slider_item_popup_descr">Цель этого исследования состояла в том, чтобы
+                  сравнить 50 мг кофеина с и без 100 мг L-теанина на когнитивные способности и настроение у здоровых
+                  добровольцев. Влияние этих процедур на распознавание слов, быструю обработку визуальной информации,
+                  критический порог слияния мерцания, переключение внимания и настроение сравнивалось с плацебо у 27
+                  участников.</p>
+                <p class="page-sertificate__slider_item_popup_descr">Эффективность измеряли в начале исследования, а
+                  затем через 60 и 90 минут после каждой процедуры (с разделением на 7 дней вымывания). Кофеин улучшил
+                  субъективную бдительность через 60 минут и точность при переключении внимания через 90 минут.</p>
+                <p class="page-sertificate__slider_item_popup_descr">Комбинация L-теанина и кофеина улучшила как
+                  скорость, так и точность выполнения задачи переключения внимания за 60 минут и снизила восприимчивость
+                  к отвлекающей информации в задаче памяти как через 60, так и через 90 минут.</p>
+              </div>
+              <img src="../files/img/certificate-popup-img-2.png" alt>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-sertificate__slider_item_popup js-certificate-popup--3">
+      <div class="page-sertificate__slider_item_popup_wrap">
+        <div class="page-sertificate__slider_item_popup_head">
+          <img src="../files/img/certificate-popup-logo.png" alt>
+          <a rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pubmed/25759004"> <span>Источник</span>:
+            https://www.ncbi.nlm.nih.gov/pubmed/25759004</a>
+          <div class="page-sertificate__slider_item_popup_close js-certificate-popup-close"></div>
+        </div>
+        <div class="page-sertificate__slider_item_popup_content">
+          <div class="page-sertificate__slider_item_popup_sidebar">
+            <img src="../files/img/certificate-popup-quote.png" alt>
+            <h5 class="page-sertificate__slider_item_popup_title  page-sertificate__slider_item_popup_title--mobile">
+              В поисках безопасного естественного сна.</h5>
+            <div class="page-sertificate__slider_item_popup_sidebar_row">
+              <p class="page-sertificate__slider_item_popup_sidebar_title">Авторы:
+              </p>
+              <div class="page-sertificate__slider_item_popup_sidebar_link">
+                <a>Рао ТП 1, </a> <br>
+                <a>Озэки М 1, </a> <br>
+                <a>Джуня LR 1, </a>
+              </div>
+            </div>
+            <p
+              class="page-sertificate__slider_item_popup_sidebar_title  page-sertificate__slider_item_popup_sidebar_title--gray">
+              a Taiyo Kagaku Co. Ltd., Йоккаити, Ми, ЯПОНИЯ.</p>
+          </div>
+          <div class="page-sertificate__slider_item_popup_text">
+            <h5 class="page-sertificate__slider_item_popup_title">В поисках безопасного естественного сна.</h5>
+            <div class="page-sertificate__slider_item_popup_inner">
+              <div class="page-sertificate__slider_item_popup_text_wrap">
+                <p class="page-sertificate__slider_item_popup_descr">Лишение сна связано с повышенным риском различных
+                  заболеваний и приводит к низкому качеству жизни и негативным социально-экономическим последствиям.
+                  Индукторы сна, такие как лекарственные препараты и растительные лекарственные средства, часто могут
+                  привести к зависимости и другим побочным эффектам. L-теанин (γ-глутамилэтиламид), аминокислота,
+                  естественным образом присутствующая в чайных листьях, обладает анксиолитическим действием за счет
+                  индукции α-мозговых волн без добавок и других побочных эффектов, связанных с обычными индукторами сна.
+                </p>
+                <p class="page-sertificate__slider_item_popup_descr">Анксиолиз необходим для начала качественного сна. В
+                  этом исследовании мы рассмотрим механизм (ы), безопасность и эффективность L-теанина. В совокупности
+                  исследования сна, основанные на актиографе, опроснике сна сна обструктивного апноэ сна, оценке
+                  пробуждения после наступления сна (WASO) и автоматической нервной системы (ANS), активности
+                  симпатической и парасимпатической нервной системы и опросника педиатрического сна (PSQ) Предполагают,
+                  что введение 200 мг L-теанина перед сном может способствовать улучшению качества сна не путем седации,
+                  а путем анксиолиза.</p>
+                <p class="page-sertificate__slider_item_popup_descr">Поскольку L-теанин не вызывает сонливости в дневное
+                  время, он может быть полезен в любое время суток. Было установлено, что не наблюдаемый уровень
+                  побочных эффектов (NOAEL) при пероральном введении L-теанина превышает 2000 мг / кг массы тела в день.
+                  КЛЮЧЕВЫЕ ВОПРОСЫ ОБУЧЕНИЯ: Заболеваемость, связанная с депривацией сна, является растущей проблемой
+                  общественного здравоохранения, создающей существенное социально-экономическое бремя. Хронические
+                  нарушения сна могут серьезно повлиять на качество жизни и могут быть этиологическими факторами при
+                  ряде хронических заболеваний, таких как депрессия, ожирение, диабет и сердечно-сосудистые заболевания.
+                </p>
+                <p class="page-sertificate__slider_item_popup_descr">Большинство индукторов сна являются седативными и
+                  часто связаны с зависимостью и другими побочными эффектами. L-Theanine способствует расслаблению без
+                  сонливости. В отличие от обычных индукторов сна, L-теанин не является седативным средством, но
+                  способствует хорошему качеству сна благодаря анксиолизу. Этот обзор предполагает, что L-теанин
+                  является безопасным естественным средством для сна.</p>
+              </div>
+              <img src="../files/img/compos-4.png" alt>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-sertificate__slider_item_popup js-certificate-popup--4">
+      <div class="page-sertificate__slider_item_popup_wrap">
+        <div class="page-sertificate__slider_item_popup_head">
+          <img src="../files/img/certificate-popup-logo.png" alt>
+          <a rel="nofollow" href="https://www.ncbi.nlm.nih.gov/pubmed/28956809"> <span>Источник</span>:
+            https://www.ncbi.nlm.nih.gov/pubmed/28956809</a>
+          <div class="page-sertificate__slider_item_popup_close js-certificate-popup-close"></div>
+        </div>
+        <div class="page-sertificate__slider_item_popup_content">
+          <div class="page-sertificate__slider_item_popup_sidebar">
+            <img src="../files/img/certificate-popup-quote.png" alt>
+            <h5 class="page-sertificate__slider_item_popup_title  page-sertificate__slider_item_popup_title--mobile">
+              Сетевое фармакологическое исследование гепатозащитного действия Fructus Schisandrae.</h5>
+            <div class="page-sertificate__slider_item_popup_sidebar_row">
+              <p class="page-sertificate__slider_item_popup_sidebar_title">Авторы:
+              </p>
+              <div class="page-sertificate__slider_item_popup_sidebar_link">
+                <a>Хонг М </a> <br>
+                <a>Озэки М, </a> <br>
+                <a>Чжан У </a> <br>
+                <a>Фэн Я </a> <br>
+                <a>Хао Х </a>
+              </div>
+            </div>
+            <p
+              class="page-sertificate__slider_item_popup_sidebar_title  page-sertificate__slider_item_popup_sidebar_title--gray">
+              Школа китайской медицины, медицинский факультет Ли Ка Шина</p>
+          </div>
+          <div class="page-sertificate__slider_item_popup_text">
+            <h5 class="page-sertificate__slider_item_popup_title">Сетевое фармакологическое исследование гепатозащитного
+              действия Fructus Schisandrae.</h5>
+            <div class="page-sertificate__slider_item_popup_inner">
+              <div class="page-sertificate__slider_item_popup_text_wrap">
+                <p class="page-sertificate__slider_item_popup_descr">Fructus schisandrae (Wuweizi по-китайски),
+                  традиционное китайское растительное лекарственное средство, веками использовалось для лечения
+                  хронических заболеваний печени. Терапевтическая эффективность Wuweizi также была подтверждена в
+                  клинической практике. В этом исследовании была проведена молекулярная стыковка и сетевой анализ, чтобы
+                  изучить гепатозащитный механизм Wuweizi как эффективный терапевтический подход для лечения заболеваний
+                  печени.</p>
+                <p class="page-sertificate__slider_item_popup_descr">Множество активных соединений Wuweizi были
+                  состыкованы с 44 белковыми мишенями, связанными с вирусным гепатитом, ожирением печени, фиброзом
+                  печени, циррозом и раком печени. Сложная целевая сеть была построена на основе анализа сетевой
+                  фармакологии, предсказывающего отношения активных ингредиентов к целевым. Наши результаты показали,
+                  что шизантерин, лимонник B, лимонник B, кадсурин, Wuweizisu C, Gomisin A, Gomisin G и ангелоилгомизин
+                  могут нацеливаться на 21 внутриклеточный белок, связанный с заболеваниями печени, особенно с ожирением
+                  печени.</p>
+                <p class="page-sertificate__slider_item_popup_descr">Гены CYP2E1, PPARα и AMPK и связанные с ними пути
+                  могут играть ключевую роль в гепатозащитных эффектах Wuweizi. Используемая стратегия сетевой
+                  фармакологии обеспечивает мощный инструмент для поиска механизма действия традиционных растительных
+                  лекарственных средств и новых биологически активных ингредиентов.</p>
+              </div>
+              <img src="../files/img/compos-2.png" alt>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="overlay">
+    <div class="overlay__content"></div>
+  </div>
+
+
+  <!--{-->
+
+  <!--}-->
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+</html>

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/JTURjIg1_i6t8kCHKm45_cJD3g3D-Px3rCs.woff") format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/JTUSjIg1_i6t8kCHKm459W1hzSTh89Y.woff") format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/JTURjIg1_i6t8kCHKm45_ZpC3g3D-Px3rCs.woff") format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/JTURjIg1_i6t8kCHKm45_bZF3g3D-Px3rCs.woff") format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/JTURjIg1_i6t8kCHKm45_dJE3g3D-Px3rCs.woff") format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/JTURjIg1_i6t8kCHKm45_c5H3g3D-Px3rCs.woff") format('woff');
+}
