@@ -458,7 +458,33 @@
 						dots: !0
 					}
 				}]
-			}), _ = function (e) {
+			}),p()(".instaslider").slick({
+					slidesToShow: 5,
+					arrows: !0,
+					nextArrow: document.querySelector(".eapps-instagram-feed-posts-slider-next"),
+					prevArrow: document.querySelector(".eapps-instagram-feed-posts-slider-prev"),
+					responsive: [{
+						breakpoint: 1280,
+						settings: {
+							slidesToShow: 4
+						}
+					}, {
+						breakpoint: 991,
+						settings: {
+							slidesToShow: 3
+						}
+					}, {
+						breakpoint: 767,
+						settings: {
+							slidesToShow: 2
+						}
+					}, {
+						breakpoint: 400,
+						settings: {
+							slidesToShow: 1
+						}
+					}]
+				}), _ = function (e) {
 				var t = parseInt(p()(".sidebar__current").text(), 10);
 				e ? t++ : t--;
 				var n = p()("#jsSidebarItem-" + t).offset().top;

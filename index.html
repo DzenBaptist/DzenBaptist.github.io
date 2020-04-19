@@ -257,12 +257,11 @@
 		.eui-slider-arrow {
 			opacity: 0;
 			visibility: hidden;
-			pointer-events: none;
 		}
 		.eui-slider-arrow-enabled {
 			opacity: 1;
 			visibility: visible;
-			pointer-events: all;
+			z-index: 999;
 		}
 		.eui-slider-dots {
 			display: flex;
@@ -2028,21 +2027,26 @@
 	<script defer src="files/js/app.min.9bf3d.js"></script>
 	<script defer src="files/js/cart.js"></script>
 	<!-- Yandex.Metrika counter -->
-
-	<script type="text/javascript" >
-		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-			m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	<script type="text/javascript">
+		(function (m, e, t, r, i, k, a) {
+			m[i] = m[i] || function () {
+				(m[i].a = m[i].a || []).push(arguments)
+			};
+			m[i].l = 1 * new Date();
+			k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
 		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
 		ym(62016757, "init", {
-			clickmap:true,
-			trackLinks:true,
-			accurateTrackBounce:true,
-			webvisor:true
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true,
+			webvisor: true
 		});
 	</script>
-
-	<noscript><div><img src="https://mc.yandex.ru/watch/62016757" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/62016757" style="position:absolute; left:-9999px;" alt=""/></div>
+	</noscript>
 	<!-- /Yandex.Metrika counter -->
 </head>
 <body>
@@ -2118,7 +2122,7 @@
 				<div class="eapps-instagram-feed-posts-container" eapps-link="postsContainer">
 					<div class="eapps-instagram-feed-posts-slider eapps-instagram-feed-posts eui-slider eapps-instagram-feed-posts-medium">
 						<div class="eapps-instagram-feed-posts-slider-inner eapps-instagram-feed-posts-inner eui-slider-inner" eapps-link="postsInner" style="min-height: 0px; margin: -15px; width: calc(100% + 30px);">
-							<div class="eapps-instagram-feed-posts-view eui-slider-slide">
+							<div class="eapps-instagram-feed-posts-view eui-slider-slide instaslider">
 								<div class="eapps-instagram-feed-posts-item-template-classic eapps-instagram-feed-posts-item eapps-instagram-feed-posts-item-type-image eapps-instagram-feed-posts-item-visible eapps-instagram-feed-posts-item-image-portrait eapps-instagram-feed-posts-item-loaded" style="width: calc(20% - 30px); margin: 15px;">
 									<div class="eapps-instagram-feed-posts-item-header">
 										<div class="eapps-instagram-feed-posts-item-user">
@@ -2556,7 +2560,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="eapps-instagram-feed-posts-slider-prev eapps-instagram-feed-posts-slider-nav eui-slider-arrow-prev eui-slider-arrow">
+						<div class="eapps-instagram-feed-posts-slider-prev eapps-instagram-feed-posts-slider-nav eui-slider-arrow-prev eui-slider-arrow eui-slider-arrow-enabled">
 							<svg viewBox="4 0 8 16" width="12" height="16" class="eapps-instagram-feed-posts-slider-nav-icon">
 								<path d="M4.3,8.7l6,5.9c0.4,0.4,1.1,0.4,1.5,0c0.4-0.4,0.4-1.1,0-1.5L6.5,8l5.2-5.2c0.4-0.4,0.4-1.1,0-1.5
                         c-0.4-0.4-1.1-0.4-1.5,0l-6,6C3.9,7.7,3.9,8.3,4.3,8.7z"></path>
@@ -2574,79 +2578,78 @@
 				<div class="eapps-instagram-feed-content-loader eapps-instagram-feed-loader" eapps-link="loader"></div>
 			</div>
 		</div>
-		<style>
-			#eapps-instagram-feed-1 {
-				width: 100%;
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-template-classic {
-				background: rgb(255, 255, 255);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-user-image {
-				box-shadow: 0 0 0 2px rgb(255, 255, 255);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item,
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content,
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-text,
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a,
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a:hover {
-				color: rgb(0, 0, 0);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content a,
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content a:hover {
-				color: rgb(0, 53, 105);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay .eapps-instagram-feed-posts-item-content,
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay .eapps-instagram-feed-posts-item-text {
-				color: rgb(255, 255, 255);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay {
-				background: rgba(0, 0, 0, 0.8);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-slider-nav-icon {
-				fill: rgb(255, 255, 255);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-slider-nav {
-				background: rgba(0, 0, 0, 0.9);
-			}
-			#eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more {
-				background: rgb(56, 151, 240);
-			}
-			#eapps-instagram-feed-popup-1 {
-				background: rgba(43, 43, 43, 0.9);
-			}
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item {
-				background: rgb(255, 255, 255);
-			}
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-posts-item-user-image {
-				box-shadow: 0 0 0 2px rgb(255, 255, 255);
-			}
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item,
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item a,
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item a:hover {
-				color: rgb(0, 0, 0);
-			}
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-text a:not(.eapps-instagram-feed-popup-item-text-author),
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-text a:not(.eapps-instagram-feed-popup-item-text-author):hover,
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-comments-item-text a,
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-comments-item-text a:hover {
-				color: rgb(0, 53, 105);
-			}
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item .eapps-instagram-feed-posts-item-user-follow-link a,
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item .eapps-instagram-feed-posts-item-user-follow-link a:hover {
-				color: rgb(0, 53, 105);
-			}
-			#eapps-instagram-feed-popup-1 a.eapps-instagram-feed-popup-item-cta-button,
-			#eapps-instagram-feed-popup-1 a.eapps-instagram-feed-popup-item-cta-button:hover {
-				color: rgb(56, 151, 240);
-			}
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-cta-highlighted a.eapps-instagram-feed-popup-item-cta-button,
-			#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-cta-highlighted a.eapps-instagram-feed-popup-item-cta-button:hover {
-				background: rgb(56, 151, 240);
-				color: #fff;
-			}
-		</style>
-		<style></style>
 	</div>
+	<style>
+		#eapps-instagram-feed-1 {
+			width: 100%;
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-template-classic {
+			background: rgb(255, 255, 255);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-user-image {
+			box-shadow: 0 0 0 2px rgb(255, 255, 255);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item,
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content,
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-text,
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a,
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a:hover {
+			color: rgb(0, 0, 0);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content a,
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content a:hover {
+			color: rgb(0, 53, 105);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay .eapps-instagram-feed-posts-item-content,
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay .eapps-instagram-feed-posts-item-text {
+			color: rgb(255, 255, 255);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay {
+			background: rgba(0, 0, 0, 0.8);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-slider-nav-icon {
+			fill: rgb(255, 255, 255);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-slider-nav {
+			background: rgba(0, 0, 0, 0.9);
+		}
+		#eapps-instagram-feed-1 .eapps-instagram-feed-posts-grid-load-more {
+			background: rgb(56, 151, 240);
+		}
+		#eapps-instagram-feed-popup-1 {
+			background: rgba(43, 43, 43, 0.9);
+		}
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item {
+			background: rgb(255, 255, 255);
+		}
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-posts-item-user-image {
+			box-shadow: 0 0 0 2px rgb(255, 255, 255);
+		}
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item,
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item a,
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item a:hover {
+			color: rgb(0, 0, 0);
+		}
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-text a:not(.eapps-instagram-feed-popup-item-text-author),
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-text a:not(.eapps-instagram-feed-popup-item-text-author):hover,
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-comments-item-text a,
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-comments-item-text a:hover {
+			color: rgb(0, 53, 105);
+		}
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item .eapps-instagram-feed-posts-item-user-follow-link a,
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item .eapps-instagram-feed-posts-item-user-follow-link a:hover {
+			color: rgb(0, 53, 105);
+		}
+		#eapps-instagram-feed-popup-1 a.eapps-instagram-feed-popup-item-cta-button,
+		#eapps-instagram-feed-popup-1 a.eapps-instagram-feed-popup-item-cta-button:hover {
+			color: rgb(56, 151, 240);
+		}
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-cta-highlighted a.eapps-instagram-feed-popup-item-cta-button,
+		#eapps-instagram-feed-popup-1 .eapps-instagram-feed-popup-item-cta-highlighted a.eapps-instagram-feed-popup-item-cta-button:hover {
+			background: rgb(56, 151, 240);
+			color: #fff;
+		}
+	</style>
 	<section class="yourstarvit">
 		<div class="yourstarvit__wrapper wow fadeIn" data-wow-delay="0.5s">
 			<div class="yourstarvit__img" itemscope itemtype="http://schema.org/ImageGallery">
