@@ -12051,14 +12051,14 @@ body form.checkout {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 35px;
-	background-image: url("../img/promo-bg.jpg")
+	background-image: url("../img/promo-bg.png")
 }
 
 @media (-webkit-min-device-pixel-ratio:1.5),
 (min-resolution:144dpi),
 (min-resolution:1.5dppx) {
 	.promo {
-		background-image: url("../img/promo-bg_402x.jpg")
+		background-image: url("../img/promo-bg_402x.png")
 	}
 }
 
@@ -12448,7 +12448,7 @@ body form.checkout {
 @media (max-width:568px) {
 	.promo {
 		background-position: center;
-		background-image: url("../img/promo-bg-m.jpg")
+		background-image: url("../img/promo-bg-m.png")
 	}
 }
 
@@ -12456,12 +12456,12 @@ body form.checkout {
 (max-width:568px) and (min-resolution:144dpi),
 (max-width:568px) and (min-resolution:1.5dppx) {
 	.promo {
-		background-image: url("../img/promo-bg-m_402x.jpg")
+		background-image: url("../img/promo-bg-m_402x.png")
 	}
 }
 
 .promo2 {
-	background-image: url("../img/promo-bg2-m.jpg");
+	background-image: url("../img/promo-bg2-m.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13041,7 +13041,7 @@ body form.checkout {
 
 .promo4,
 .promo4__order a::before {
-	background-image: url("../img/office.jpg");
+	background-image: url("../img/office.png");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 160%
@@ -13647,7 +13647,7 @@ body form.checkout {
 (min-resolution:144dpi),
 (min-resolution:1.5dppx) {
 	.dom2.promo {
-		background-image: url("../img/dom2-promo-bg_402x.jpg")
+		background-image: url("../img/dom2-promo-bg.png")
 	}
 }
 
