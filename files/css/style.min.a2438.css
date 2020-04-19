@@ -10387,14 +10387,14 @@ body form.checkout {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-image: url("../img/oneclick-d.jpg")
+	background-image: url("../img/oneclick-d.png")
 }
 
 @media (-webkit-min-device-pixel-ratio:1.5),
 (min-resolution:144dpi),
 (min-resolution:1.5dppx) {
 	.oneclick {
-		background-image: url("../img/oneclick-d_402x.jpg")
+		background-image: url("../img/oneclick-d_402x.png")
 	}
 }
 
@@ -10541,7 +10541,7 @@ body form.checkout {
 		margin-top: 30px;
 		margin-bottom: 30px;
 		height: 482px;
-		background-image: url("../img/oneclick-md.jpg")
+		background-image: url("../img/oneclick-md.png")
 	}
 }
 
@@ -10549,7 +10549,7 @@ body form.checkout {
 (max-width:1599px) and (min-resolution:144dpi),
 (max-width:1599px) and (min-resolution:1.5dppx) {
 	.oneclick {
-		background-image: url("../img/oneclick-md_402x.jpg")
+		background-image: url("../img/oneclick-md_402x.png")
 	}
 }
 
@@ -10607,7 +10607,7 @@ body form.checkout {
 @media (max-width:1279px) {
 	.oneclick {
 		height: 482px;
-		background-image: url("../img/oneclick-t.jpg")
+		background-image: url("../img/oneclick-t.png")
 	}
 }
 
@@ -10615,7 +10615,7 @@ body form.checkout {
 (max-width:1279px) and (min-resolution:144dpi),
 (max-width:1279px) and (min-resolution:1.5dppx) {
 	.oneclick {
-		background-image: url("../img/oneclick-t_402x.jpg")
+		background-image: url("../img/oneclick-t_402x.png")
 	}
 }
 
@@ -10653,7 +10653,7 @@ body form.checkout {
 @media (max-width:767px) {
 	.oneclick {
 		height: 518px;
-		background-image: url("../img/oneclick-m.jpg")
+		background-image: url("../img/oneclick-m.png")
 	}
 }
 
@@ -10661,7 +10661,7 @@ body form.checkout {
 (max-width:767px) and (min-resolution:144dpi),
 (max-width:767px) and (min-resolution:1.5dppx) {
 	.oneclick {
-		background-image: url("../img/oneclick-m_402x.jpg")
+		background-image: url("../img/oneclick-m_402x.png")
 	}
 }
 
@@ -13212,7 +13212,7 @@ body form.checkout {
 }
 
 .promo5 {
-	background-image: url("../img/companion.jpg");
+	background-image: url("../img/companion.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

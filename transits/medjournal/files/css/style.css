@@ -218,3 +218,4 @@ li.active a { color: rgb(167, 190, 57) ! important; }
 .btn{text-align: center; margin: auto;display: block;padding: 16px 30px;background: red; color: white; text-transform: uppercase; font-weight: bold; font-size: 18px; text-decoration: none; outline: none; box-shadow: 0 0 10px #000; border: none; border-radius: 19px;  }
 .btn:hover{transform: scale3d(1.12, 1.12, 1.12); cursor: pointer;}
 .bt{text-decoration: none}
+.img2{max-width: 100px;}
