@@ -569,7 +569,7 @@ body #eapps-instagram-feed-1 {
 }
 
 .header__links--show {
-	border: 1px solid #f6492d;
+	border: 1px solid #ffb600;
 	padding-right: 20px;
 	margin-left: auto
 }
@@ -612,14 +612,14 @@ body #eapps-instagram-feed-1 {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	margin-right: 13px;
 	-webkit-transition-duration: .3s;
 	transition-duration: .3s
 }
 
 .header__order_btn:hover {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 .header__user {
@@ -802,7 +802,7 @@ body #eapps-instagram-feed-1 {
 .footer__callback_button {
 	width: 100%;
 	min-height: 50px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	border: 0;
 	color: #fff;
 	font-size: 14px;
@@ -814,7 +814,7 @@ body #eapps-instagram-feed-1 {
 
 .footer__callback_button:hover,
 .howitwork__order .btn:hover {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 .footer__callback_terms {
@@ -1036,8 +1036,8 @@ body #eapps-instagram-feed-1 {
 }
 
 .footer__social_quiz a:hover {
-	background-color: #f6492d;
-	border-color: #f6492d
+	background-color: #ffb600;
+	border-color: #ffb600
 }
 
 .footer__social_quiz p {
@@ -1496,7 +1496,7 @@ body #eapps-instagram-feed-1 {
 }
 
 .btn:hover {
-	background-color: #f6492d
+	background-color: #ffb600
 }
 
 @media (min-width:1400px) {
@@ -1568,7 +1568,7 @@ body #eapps-instagram-feed-1 {
 }
 
 .menu__item a:hover {
-	color: #f6492d!important
+	color: #ffb600!important
 }
 
 .menu__btn {
@@ -1687,7 +1687,7 @@ body #eapps-instagram-feed-1 {
 		transition-duration: .3s
 	}
 	.menu__item a:hover {
-		color: #f6492d
+		color: #ffb600
 	}
 	.menu__item--phone {
 		margin-right: 0;
@@ -1940,7 +1940,7 @@ body #eapps-instagram-feed-1 {
 .howitwork__order .btn {
 	width: 238px;
 	height: 38px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -1981,7 +1981,7 @@ body #eapps-instagram-feed-1 {
 .howitwork__order_content_title {
 	font-size: 14px;
 	font-weight: 700;
-	color: #f6492d;
+	color: #ffb600;
 	margin-top: 15px;
 	margin-bottom: 5px;
 	line-height: 1.29
@@ -2118,7 +2118,7 @@ body #eapps-instagram-feed-1 {
 	.howitwork__plus {
 		font-size: 72px;
 		font-weight: 600;
-		color: #f6492d;
+		color: #ffb600;
 		margin-left: 40px;
 		margin-right: 40px;
 		margin-top: 15px
@@ -2277,7 +2277,7 @@ body #eapps-instagram-feed-1 {
 	.howitwork__plus {
 		font-size: 72px;
 		font-weight: 600;
-		color: #f6492d;
+		color: #ffb600;
 		margin-left: 40px;
 		margin-right: 40px;
 		margin-top: 15px
@@ -2499,7 +2499,7 @@ body #eapps-instagram-feed-1 {
 		margin: 0;
 		font-size: 18px;
 		font-weight: 700;
-		color: #f6492d
+		color: #ffb600
 	}
 	.howitwork__order_content_title br {
 		display: none
@@ -2573,7 +2573,7 @@ body #eapps-instagram-feed-1 {
 
 .slick-dots li:hover::before,
 .social__item:hover {
-	background-color: #f6492d
+	background-color: #ffb600
 }
 
 .social__item:hover svg {
@@ -3098,17 +3098,17 @@ body #eapps-instagram-feed-1 {
 .page-faq__item_title--open,
 .page-sertificate__slider_descr span,
 .page-sertificate__subtitle span {
-	color: #f6492d
+	color: #ffb600
 }
 
 .page-faq__item_title--open::after {
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
-	background-color: #f6492d
+	background-color: #ffb600
 }
 
 .page-faq__item_title--open::before {
-	background-color: #f6492d
+	background-color: #ffb600
 }
 
 .page-faq__item_text {
@@ -3910,7 +3910,7 @@ body form.checkout {
 	position: absolute;
 	left: -21px;
 	top: 4px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	border-radius: 50%;
 	display: none
 }
@@ -3922,7 +3922,7 @@ body form.checkout {
 
 .checkout__order_send {
 	display: block;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	cursor: pointer;
 	font-weight: 700;
 	font-size: 11px;
@@ -3941,7 +3941,7 @@ body form.checkout {
 }
 
 .checkout__order_send:hover {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 .checkout__sidebar {
@@ -4044,7 +4044,7 @@ body form.checkout {
 	font-size: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: #f6492d;
+	color: #ffb600;
 	width: 38px;
 	padding-left: 0;
 	padding-right: 0;
@@ -4231,7 +4231,7 @@ body form.checkout {
 	border: 0;
 	width: 100%;
 	margin-top: 20px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	padding: 20px;
 	font-weight: 700;
 	font-size: 11px;
@@ -4581,7 +4581,7 @@ body form.checkout {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.29;
-	color: #f6492d
+	color: #ffb600
 }
 
 .page-sertificate__slider_item_popup_sidebar_title--gray {
@@ -4594,7 +4594,7 @@ body form.checkout {
 
 .page-sertificate__slider_item_popup_sidebar_link a {
 	font-size: 16px;
-	color: #f6492d;
+	color: #ffb600;
 	line-height: 1.25
 }
 
@@ -5100,7 +5100,7 @@ body form.checkout {
 }
 
 .page-contacts__item_descr a:hover {
-	color: #f6492d
+	color: #ffb600
 }
 
 .page-contacts__icons {
@@ -5142,7 +5142,7 @@ body form.checkout {
 }
 
 .page-contacts .order__social_item:hover svg {
-	fill: #f6492d
+	fill: #ffb600
 }
 
 @media (min-width:768px) {
@@ -5565,7 +5565,7 @@ body form.checkout {
 	color: #fff;
 	text-transform: uppercase;
 	display: block;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	padding: 20px 40px;
 	text-decoration: none;
 	margin-bottom: 40px;
@@ -5576,7 +5576,7 @@ body form.checkout {
 }
 
 .page-thanks__link:hover {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 @media (min-width:768px) {
@@ -5718,7 +5718,7 @@ body form.checkout {
 	display: block;
 	width: 27px;
 	height: 30px;
-	fill: #f6492d;
+	fill: #ffb600;
 	margin-left: auto;
 	margin-right: auto
 }
@@ -6169,7 +6169,7 @@ body form.checkout {
 	font-style: normal;
 	font-stretch: normal;
 	line-height: 1;
-	color: #f6492d
+	color: #ffb600
 }
 
 .functions__title-big {
@@ -6916,7 +6916,7 @@ body form.checkout {
 	border: 0;
 	background-color: transparent;
 	text-align: center;
-	color: #f6492d;
+	color: #ffb600;
 	width: 50px;
 	line-height: 35px;
 	-moz-appearance: textfield
@@ -7004,7 +7004,7 @@ body form.checkout {
 }
 
 .cart__item_add-btn:hover {
-	background-color: #f6492d;
+	background-color: #ffb600;
 	color: #fff
 }
 
@@ -7069,14 +7069,14 @@ body form.checkout {
 }
 
 .cart__info_pay_btn:first-child {
-	background-color: #f6492d;
+	background-color: #ffb600;
 	margin-bottom: 10px
 }
 
 .cart__info_pay_btn:hover,
 .popup__oneclick form button:hover,
 .popup__oneclick_done button:hover {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 .cart__emty {
@@ -7115,7 +7115,7 @@ body form.checkout {
 }
 
 .cart__emty_descr a {
-	color: #f6492d;
+	color: #ffb600;
 	text-decoration: none
 }
 
@@ -7622,7 +7622,7 @@ body form.checkout {
 }
 
 .popup__oneclick_done button {
-	background-color: #f6492d;
+	background-color: #ffb600;
 	height: 50px;
 	border: 0;
 	border-radius: 1px;
@@ -7687,7 +7687,7 @@ body form.checkout {
 }
 
 .popup__oneclick form button {
-	background-color: #f6492d;
+	background-color: #ffb600;
 	height: 50px;
 	border: 0;
 	border-radius: 1px;
@@ -7891,7 +7891,7 @@ body form.checkout {
 }
 
 .quick-order--dark .quick-order__text--red {
-	color: #f6492d
+	color: #ffb600
 }
 
 .quick-order--dark .quick-order__block--desktop .quick-order__text,
@@ -7970,7 +7970,7 @@ body form.checkout {
 .quick-order__text--red {
 	margin-bottom: 0;
 	font-size: 8px;
-	color: #f6492d
+	color: #ffb600
 }
 
 .quick-order__price {
@@ -8009,7 +8009,7 @@ body form.checkout {
 
 .quick-order__link {
 	width: 58px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	text-decoration: none;
 	color: #fff;
 	font-size: 10px;
@@ -8032,7 +8032,7 @@ body form.checkout {
 }
 
 .quick-order__link:hover {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 @media (min-width:430px) {
@@ -8259,7 +8259,7 @@ body form.checkout {
 
 .page-404 p a {
 	font-weight: 700;
-	color: #f6492d
+	color: #ffb600
 }
 
 @media (min-width:768px) {
@@ -8474,7 +8474,7 @@ body form.checkout {
 	line-height: 13px;
 	text-transform: uppercase;
 	margin: 0;
-	color: #f6492d
+	color: #ffb600
 }
 
 .composition__item_img,
@@ -8737,7 +8737,7 @@ body form.checkout {
 .question__question_title {
 	font-size: 14px;
 	font-weight: 700;
-	color: #f6492d;
+	color: #ffb600;
 	position: relative;
 	padding-left: 35px;
 	margin-bottom: 20px;
@@ -8749,7 +8749,7 @@ body form.checkout {
 	content: '';
 	width: 24px;
 	height: 24px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	border-radius: 50%;
 	position: absolute;
 	background-image: url("../img/cross-sign.svg");
@@ -8768,7 +8768,7 @@ body form.checkout {
 
 .order__buy button:hover,
 .question__question_title:hover::before {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 .question__question_title.active::before {
@@ -9200,7 +9200,7 @@ body form.checkout {
 }
 
 .quote__suptitle--2 {
-	color: #f6492d;
+	color: #ffb600;
 	margin-bottom: 25px
 }
 
@@ -9302,7 +9302,7 @@ body form.checkout {
 		margin-bottom: 0;
 		margin-top: 0;
 		margin-left: 0;
-		color: #f6492d;
+		color: #ffb600;
 		max-width: none
 	}
 	.quote__title {
@@ -9386,7 +9386,7 @@ body form.checkout {
 		margin-bottom: 0;
 		margin-top: 0;
 		margin-left: 0;
-		color: #f6492d;
+		color: #ffb600;
 		max-width: none
 	}
 	.quote__title {
@@ -9530,7 +9530,7 @@ body form.checkout {
 }
 
 .order__descr span {
-	color: #f6492d;
+	color: #ffb600;
 	font-weight: 700
 }
 
@@ -9553,7 +9553,7 @@ body form.checkout {
 }
 
 .order__item--red {
-	background-color: #f6492d
+	background-color: #ffb600
 }
 
 .order__item--red .order__item_price span {
@@ -9651,7 +9651,7 @@ body form.checkout {
 }
 
 .order__item_delivery span {
-	color: #f6492d;
+	color: #ffb600;
 	text-decoration: underline
 }
 
@@ -9675,7 +9675,7 @@ body form.checkout {
 	-ms-flex-align: center;
 	align-items: center;
 	background-color: #fff;
-	color: #f6492d;
+	color: #ffb600;
 	margin: auto 8px 5px auto
 }
 
@@ -9733,7 +9733,7 @@ body form.checkout {
 	width: 12px;
 	height: 12px;
 	position: absolute;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	border-radius: 50%;
 	left: 4px;
 	top: 4px;
@@ -9758,7 +9758,7 @@ body form.checkout {
 	text-align: center;
 	color: #fff;
 	border: 0;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -9831,7 +9831,7 @@ body form.checkout {
 		width: auto
 	}
 	.order__type_item:hover label::before {
-		border-color: #f6492d
+		border-color: #ffb600
 	}
 	.order__type_item label {
 		display: block;
@@ -9866,7 +9866,7 @@ body form.checkout {
 		text-align: center;
 		color: #fff;
 		border: 0;
-		background-color: #f6492d;
+		background-color: #ffb600;
 		display: block;
 		cursor: pointer;
 		-webkit-transition-duration: .3s;
@@ -9974,7 +9974,7 @@ body form.checkout {
 		width: 51px;
 		height: 24px;
 		position: absolute;
-		background-color: #f6492d;
+		background-color: #ffb600;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -10001,10 +10001,10 @@ body form.checkout {
 		background-color: transparent
 	}
 	.order__item--red::after {
-		background-color: #f6492d
+		background-color: #ffb600
 	}
 	.order__item:hover::after {
-		background-color: #de311b
+		background-color: #ffeb00
 	}
 	.order__item_img {
 		margin-left: auto;
@@ -10035,7 +10035,7 @@ body form.checkout {
 		width: 12px;
 		height: 12px;
 		position: absolute;
-		background-color: #f6492d;
+		background-color: #ffb600;
 		border-radius: 50%;
 		left: 4px;
 		top: 1px;
@@ -10089,7 +10089,7 @@ body form.checkout {
 		display: block
 	}
 	.order__type_item:hover label::before {
-		border-color: #f6492d
+		border-color: #ffb600
 	}
 	.order__type_item label {
 		display: block;
@@ -10240,7 +10240,7 @@ body form.checkout {
 		left: 0
 	}
 	.order__item:active::after {
-		background-color: #de311b
+		background-color: #ffeb00
 	}
 	.order__item label {
 		font-size: 25px;
@@ -10262,7 +10262,7 @@ body form.checkout {
 		width: 15px;
 		height: 15px;
 		position: absolute;
-		background-color: #f6492d;
+		background-color: #ffb600;
 		border-radius: 50%;
 		left: 4px;
 		top: 1px;
@@ -10316,7 +10316,7 @@ body form.checkout {
 		width: auto
 	}
 	.order__type_item:hover label::before {
-		border-color: #f6492d
+		border-color: #ffb600
 	}
 	.order__type_item label {
 		display: block;
@@ -11414,7 +11414,7 @@ body form.checkout {
 }
 
 .product__block_suptitle {
-	color: #f6492d;
+	color: #ffb600;
 	margin-bottom: 5px;
 	font-size: 14px;
 	line-height: 17px
@@ -11461,7 +11461,7 @@ body form.checkout {
 
 .product__block_product-name {
 	display: none;
-	color: #f6492d;
+	color: #ffb600;
 	font-weight: 800;
 	font-size: 17px;
 	line-height: 34px;
@@ -11479,7 +11479,7 @@ body form.checkout {
 	border: 0;
 	color: #fff;
 	border-radius: 1.92px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	display: block;
 	cursor: pointer;
 	-webkit-transition-duration: .3s;
@@ -11609,7 +11609,7 @@ body form.checkout {
 		padding-left: 0
 	}
 	.product__block_suptitle {
-		color: #f6492d;
+		color: #ffb600;
 		margin-bottom: 5px;
 		margin-left: auto;
 		font-size: 17px
@@ -11649,7 +11649,7 @@ body form.checkout {
 		top: 2px
 	}
 	.product__block_product-name {
-		color: #f6492d;
+		color: #ffb600;
 		font-weight: 800;
 		font-size: 17px;
 		line-height: 34px;
@@ -11667,7 +11667,7 @@ body form.checkout {
 		border: 0;
 		color: #fff;
 		border-radius: 1.92px;
-		background-color: #f6492d;
+		background-color: #ffb600;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
@@ -12145,7 +12145,7 @@ body form.checkout {
 .promo6__descr span,
 .promo__descr span,
 .yourstarvit__title span {
-	color: #f6492d
+	color: #ffb600
 }
 
 .promo__order .btn {
@@ -12156,7 +12156,7 @@ body form.checkout {
 	text-align: center;
 	letter-spacing: 2px;
 	height: 60px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	margin-bottom: 18px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -12171,7 +12171,7 @@ body form.checkout {
 
 .promo2__order .btn:hover,
 .promo__order .btn:hover {
-	background-color: #de311b
+	background-color: #ffeb00
 }
 
 .promo__icons-wrap {
@@ -12557,7 +12557,7 @@ body form.checkout {
 	max-width: 305px;
 	width: 100%;
 	height: 60px;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: .7;
@@ -12951,7 +12951,7 @@ body form.checkout {
 .promo4__order a:hover,
 .promo5__order a:hover,
 .promo6__order a:hover {
-	color: #de311b
+	color: #ffeb00
 }
 
 @media (min-width:576px) {
@@ -14231,7 +14231,7 @@ body form.checkout {
 }
 
 .yourstarvit__descr span {
-	color: #f6492d;
+	color: #ffb600;
 	font-weight: 800;
 	font-size: 32.683px;
 	line-height: 25px
@@ -14265,7 +14265,7 @@ body form.checkout {
 }
 
 .yourstarvit__list_item span {
-	color: #f6492d
+	color: #ffb600
 }
 
 .yourstarvit__list_item::after {
@@ -14274,7 +14274,7 @@ body form.checkout {
 	height: 5px;
 	position: absolute;
 	border-radius: 50%;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	left: -20px;
 	top: 6px
 }
@@ -14613,7 +14613,7 @@ body form.checkout {
 	font-size: 28px;
 	line-height: 32px;
 	text-align: center;
-	color: #f6492d
+	color: #ffb600
 }
 
 .description__descr {
@@ -14733,13 +14733,13 @@ body form.checkout {
 	height: 5px;
 	position: absolute;
 	border-radius: 50%;
-	background-color: #f6492d;
+	background-color: #ffb600;
 	left: -16px;
 	top: 7px
 }
 
 .infoslider__item_list-item span {
-	color: #f6492d
+	color: #ffb600
 }
 
 .infoslider__slider {
