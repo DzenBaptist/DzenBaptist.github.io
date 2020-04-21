@@ -18,9 +18,8 @@
         <label class="menu__label" for="mobmenu"><span class="menu__icon"></span></label>
         <nav class="menu__content"><a class="menu__logo" href="/"><img class="menu__logopict" src="img/logo.svg" alt="Viztrom"></a>
           <ul class="menu__list">
-            <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
-            <li class="menu__item"><a class="menu__link" href="#formats">Форматы</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Рекламодателю</a></li>
+            <li class="menu__item"><a class="menu__link" href="/web.html">Вебмастеру</a></li>
+            <li class="menu__item"><a class="menu__link" href="/recl.html">Рекламодателю</a></li>
             <li class="menu__item menu__item_desktophide"><a class="buttonlink menu__button buttonlink_small" href="#">Вход</a>
             </li>
             <li class="menu__item menu__item_desktophide"><a class="buttonlink menu__button buttonlink_green buttonlink_small" href="#">Регистрация</a>
@@ -57,34 +56,40 @@
                     <h2 class="regblock__title">Пройдите регистрацию и запустите рекламу</h2>
                     <h2 class="regblock__title">Пройдите регистрацию и добавьте сайт</h2><img class="regblock__pict" src="img/target.png" alt="">
                   </div>
-                    <form class="form regblock__form">
-                      <h3 class="form__title">Регистрация</h3>
-                      <div class="form__inputblock"><span class="form__text">Электронная почта</span>
-                        <input class="form__input">
-                      </div>
-                      <div class="form__inputblock"><span class="form__text">Укажите контакт для связи</span>
-                        <div class="form__input form__input_select">Добавить контакт</div>
-                        <div class="form__list">
-                          <div class="form__item">Telegram</div>
-                          <div class="form__item">Skype</div>
+                  <div class="regblock__formpart">
+                    <h2 class="regblock__formtitle">Регистрация</h2>
+                    <div class="regblock__tabs">
+                      <div class="regblock__tab regblock__tab_active"> Рекламодателю</div>
+                      <div class="regblock__tab">Вебмастеру</div>
+                    </div>
+                      <form class="form regblock__form">
+                        <div class="form__inputblock"><span class="form__text">Электронная почта</span>
+                          <input class="form__input">
                         </div>
-                      </div>
-                      <div class="form__inputblock form__contact"><span class="form__text">Telegram</span>
-                        <input class="form__input" type="text" name="telegram"><span class="form__error">Ошибка</span>
-                      </div>
-                      <div class="form__inputblock"><span class="form__text">Пароль</span>
-                        <input class="form__input" type="password">
-                      </div>
-                      <div class="form__inputblock"><span class="form__text">Повторите пароль</span>
-                        <input class="form__input" type="password">
-                      </div>
-                      <div class="form__agree">
-                        <input class="form__checkbox" type="checkbox" hidden>
-                        <div class="form__falsecheckbox"><img class="form__check" src="https://static.viztrom.com/lands/img/check.svg" alt="v"></div>
-                        <p class="form__agreetext form__agreetext_big">Я ознакомился и согласен с <a class="form__rules" href="#">правилами пользования</a></p>
-                      </div>
-                      <button class="form__submit" disabled>Регистрация</button>
-                    </form>
+                        <div class="form__inputblock"><span class="form__text">Укажите контакт для связи</span>
+                          <div class="form__input form__input_select">Добавить контакт</div>
+                          <div class="form__list">
+                            <div class="form__item">Telegram</div>
+                            <div class="form__item">Skype</div>
+                          </div>
+                        </div>
+                        <div class="form__inputblock form__contact"><span class="form__text">Telegram</span>
+                          <input class="form__input" type="text" name="telegram"><span class="form__error">Ошибка</span>
+                        </div>
+                        <div class="form__inputblock"><span class="form__text">Пароль</span>
+                          <input class="form__input" type="password">
+                        </div>
+                        <div class="form__inputblock"><span class="form__text">Повторите пароль</span>
+                          <input class="form__input" type="password">
+                        </div>
+                        <div class="form__agree">
+                          <input class="form__checkbox" type="checkbox" hidden>
+                          <div class="form__falsecheckbox"><img class="form__check" src="https://static.viztrom.com/lands/img/check.svg" alt="v"></div>
+                          <p class="form__agreetext form__agreetext_big">Я ознакомился и согласен с <a class="form__rules" href="#">правилами пользования</a></p>
+                        </div>
+                        <button class="form__submit" disabled>Регистрация</button>
+                      </form>
+                  </div>
                 </div>
               </div>
           </section>
