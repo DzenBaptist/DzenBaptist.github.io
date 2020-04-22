@@ -20,12 +20,12 @@
           <ul class="menu__list">
             <li class="menu__item"><a class="menu__link" href="/web.html">Вебмастеру</a></li>
             <li class="menu__item"><a class="menu__link" href="/recl.html">Рекламодателю</a></li>
-            <li class="menu__item menu__item_desktophide"><a class="buttonlink menu__button buttonlink_small" href="#">Вход</a>
+            <li class="menu__item menu__item_desktophide"><a class="buttonlink menu__button buttonlink_small" href="#" data-text="Вход">Вход</a>
             </li>
-            <li class="menu__item menu__item_desktophide"><a class="buttonlink menu__button buttonlink_green buttonlink_small" href="#">Регистрация</a>
+            <li class="menu__item menu__item_desktophide"><a class="buttonlink menu__button buttonlink_green buttonlink_small" href="#" data-text="Регистрация">Регистрация</a>
             </li>
           </ul>
-          <div class="menu__buttons"><a class="buttonlink menu__button buttonlink_small" href="/enter.html">Вход</a><a class="buttonlink menu__button buttonlink_green buttonlink_small" href="/registration.html">Регистрация</a>
+          <div class="menu__buttons"><a class="buttonlink menu__button buttonlink_small" href="/enter.html" data-text="Вход">Вход</a><a class="buttonlink menu__button buttonlink_green buttonlink_small" href="/registration.html" data-text="Регистрация">Регистрация</a>
           </div>
         </nav>
       </header>
@@ -37,15 +37,15 @@
               <div class="tabs">
                 <div class="tabs__content">
                   <div class="tabs__tabs">
-                    <div class="tabs__tab tabs__tab_active"> Рекламодателю</div>
-                    <div class="tabs__tab">Вебмастеру</div>
+                    <div class="tabs__tab tabs__tab_active" data-text="Рекламодателю"> Рекламодателю</div>
+                    <div class="tabs__tab" data-text="Вебмастеру">Вебмастеру</div>
                   </div>
                   <div class="tabs__info">
                     <div class="tabs__titles">
                       <h2 class="tabs__title">Закупайте рекламу на проверенных сайтах и <span class="tabs__green">получите высокий CTR </span>за счёт нативных инструментов</h2>
                       <h2 class="tabs__title tabs__title_big"><span class="tabs__green">Монетизация вашего сайта </span>за&nbsp;счёт современных инструментов</h2>
                     </div>
-                    <div class="tabs__controls"><img class="tabs__icon" src="img/tab1.svg" alt="Viztrom"><a class="buttonlink  tabs__button buttonlink_small buttonlink_green" href="#">Узнать подробнее</a>
+                    <div class="tabs__controls"><img class="tabs__icon" src="img/tab1.svg" alt="Viztrom"><a class="buttonlink  tabs__button buttonlink_small buttonlink_green" href="#" data-text="Узнать подробнее">Узнать подробнее</a>
                     </div>
                   </div>
                 </div>
@@ -56,40 +56,46 @@
                     <h2 class="regblock__title">Пройдите регистрацию и запустите рекламу</h2>
                     <h2 class="regblock__title">Пройдите регистрацию и добавьте сайт</h2><img class="regblock__pict" src="img/target.png" alt="">
                   </div>
-                  <div class="regblock__formpart">
-                    <h2 class="regblock__formtitle">Регистрация</h2>
-                    <div class="regblock__tabs">
-                      <div class="regblock__tab regblock__tab_active"> Рекламодателю</div>
-                      <div class="regblock__tab">Вебмастеру</div>
-                    </div>
-                      <form class="form regblock__form">
-                        <div class="form__inputblock"><span class="form__text">Электронная почта</span>
-                          <input class="form__input">
-                        </div>
-                        <div class="form__inputblock"><span class="form__text">Укажите контакт для связи</span>
-                          <div class="form__input form__input_select">Добавить контакт</div>
-                          <div class="form__list">
-                            <div class="form__item">Telegram</div>
-                            <div class="form__item">Skype</div>
+                    <form class="form regblock__form">
+                      <h3 class="form__title">Регистрация</h3>
+                      <div class="form__inputblock"><span class="form__text">Кто Вы?</span>
+                        <div class="form__radiorow">
+                          <div class="form__radioblock">
+                            <input class="form__trueradio" type="radio" checked name="role">
+                            <div class="form__radio form__radio_active"></div><span class="form__radiotext">Рекламодатель</span>
+                          </div>
+                          <div class="form__radioblock">
+                            <input class="form__trueradio" type="radio" name="role">
+                            <div class="form__radio"></div><span class="form__radiotext">Вебмастер</span>
                           </div>
                         </div>
-                        <div class="form__inputblock form__contact"><span class="form__text">Telegram</span>
-                          <input class="form__input" type="text" name="telegram"><span class="form__error">Ошибка</span>
+                      </div>
+                      <div class="form__inputblock"><span class="form__text">Электронная почта</span>
+                        <input class="form__input">
+                      </div>
+                      <div class="form__inputblock"><span class="form__text">Укажите контакт для связи</span>
+                        <div class="form__input form__input_select">Добавить контакт</div>
+                        <div class="form__list">
+                          <div class="form__item">Telegram</div>
+                          <div class="form__item">Skype</div>
                         </div>
-                        <div class="form__inputblock"><span class="form__text">Пароль</span>
-                          <input class="form__input" type="password">
-                        </div>
-                        <div class="form__inputblock"><span class="form__text">Повторите пароль</span>
-                          <input class="form__input" type="password">
-                        </div>
-                        <div class="form__agree">
-                          <input class="form__checkbox" type="checkbox" hidden>
-                          <div class="form__falsecheckbox"><img class="form__check" src="https://static.viztrom.com/lands/img/check.svg" alt="v"></div>
-                          <p class="form__agreetext form__agreetext_big">Я ознакомился и согласен с <a class="form__rules" href="#">правилами пользования</a></p>
-                        </div>
-                        <button class="form__submit" disabled>Регистрация</button>
-                      </form>
-                  </div>
+                      </div>
+                      <div class="form__inputblock form__contact"><span class="form__text">Telegram</span>
+                        <input class="form__input" type="text" name="telegram"><span class="form__error">Ошибка</span>
+                      </div>
+                      <div class="form__inputblock"><span class="form__text">Пароль</span>
+                        <input class="form__input" type="password">
+                      </div>
+                      <div class="form__inputblock"><span class="form__text">Повторите пароль</span>
+                        <input class="form__input" type="password">
+                      </div>
+                      <div class="form__agree">
+                        <input class="form__checkbox" type="checkbox" hidden>
+                        <div class="form__falsecheckbox"><img class="form__check" src="https://static.viztrom.com/lands/img/check.svg" alt="v"></div>
+                        <p class="form__agreetext form__agreetext_big">Я ознакомился и согласен с <a class="form__rules" href="#">правилами пользования</a></p>
+                      </div>
+                      <button class="form__submit" disabled>Регистрация</button>
+                    </form>
                 </div>
               </div>
           </section>
