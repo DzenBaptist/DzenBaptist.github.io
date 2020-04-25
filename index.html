@@ -3,12 +3,187 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Title</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta name="format-detection" content="telephone=no">
-    <title>Спасибо</title>
-    <link rel="stylesheet" href="css/style.css"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="content"><a href="/orange.html">Оранжевый</a><a href="/green.html">Зеленый</a><a href="/blue.html">Синий</a><a href="/darkblue.html">Темно-синий</a><a href="/purple.html">Фиолетовый</a></div>
+      <div class="wrapper">
+          <nav class="menu">
+            <div class="menu__content"><a class="menu__logo" href="/"><img class="menu__logopict" src="img/logo.svg" alt="Nootris"></a>
+              <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="#">FAQ</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Оплата и доставка</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Возврат</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Исследования</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Личный кабинет</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">8 8 (800) 600-09-90</a></li>
+              </ul><a class="menu__basket" href="#"><img class="menu__basketpict" src="img/basket.svg" alt=""><span class="menu__basketnum">1</span></a>
+            </div>
+          </nav>
+        <main class="wrapper__main">
+            <header class="firstscreen">
+              <div class="firstscreen__content">
+                <div class="firstscreen__data">
+                  <h1 class="firstscreen__title">Активируй иммунитет!</h1>
+                  <p class="firstscreen__text">Всего пять секунд в день помогут укрепить иммунитет и повысить защитные силы организма</p>
+                  <h2 class="firstscreen__subtitle">Nootris помогает</h2>
+                  <p class="firstscreen__addtext">Вашему организму во время пандемии и сезонных простуд</p>
+                </div>
+                <div class="firstscreen__pictures"><img class="firstscreen__pict" src="img/ginger.png" alt=""><img class="firstscreen__pict" src="img/nootris.png" alt=""><img class="firstscreen__pict" src="img/lemon.png" alt=""></div>
+              </div>
+            </header>
+            <section class="getfirst">
+              <div class="getfirst__content">
+                <h2 class="getfirst__title">Получи защиту иммунитета&ensp;<span class="getfirst__highlight">со скидкой -15% первым!</span></h2>
+                <p class="getfirst__price"><span class="getfirst__oldprice">750₽</span><span class="getfirst__newprice">690₽</span></p>
+                <div class="getfirst__blocks">
+                  <div class="getfirst__block"><img class="getfirst__pict" src="img/getfirst1.png" alt="">
+                    <p class="getfirst__text">Содержит<br><span class="getfirst__highlight">имбирь</span></p>
+                  </div>
+                  <div class="getfirst__block"><img class="getfirst__pict" src="img/getfirst2.png" alt="">
+                    <p class="getfirst__text getfirst__text_big"> + Бесплатная доставка<br><span class="getfirst__highlight">Специальная цена</span></p>
+                  </div>
+                  <div class="getfirst__block"><img class="getfirst__pict" src="img/getfirst3.png" alt="">
+                    <p class="getfirst__text">Нейтрализует<br><span class="getfirst__highlight">вирусы</span></p>
+                  </div>
+                </div><a class="getfirst__button buttonlink" href="#">Оформить заказ!</a>
+              </div>
+            </section>
+            <section class="howhelp">
+              <div class="howhelp__content">
+                <h2 class="howhelp__title">Чем поможет вам Nootris?</h2>
+                <p class="howhelp__text">Ваша скорая помощь при первых симптомах простуды</p>
+                <h3 class="howhelp__subtitle">Сразу 3 мощных натуральных компонентов помогут:</h3>
+                <p class="howhelp__text">1. Укрепить иммунитет</p>
+                <p class="howhelp__text">2. Справиться вирусами</p>
+                <p class="howhelp__text">3. Предотвратить повторное заражение вирусом</p>
+              </div>
+            </section>
+            <section class="about">
+              <div class="about__content">
+                <h2 class="about__title">Разработан и сделан в России</h2>
+                <div class="about__blocks">
+                  <div class="about__block"><img class="about__pict" src="img/about1.png" alt="">
+                    <p class="about__text">Высококачественные материалы</p>
+                  </div>
+                  <div class="about__block"><img class="about__pict" src="img/about2.png" alt="">
+                    <p class="about__text">Без сахара</p>
+                  </div>
+                  <div class="about__block"><img class="about__pict" src="img/about3.png" alt="">
+                    <p class="about__text">Без ГМО</p>
+                  </div>
+                  <div class="about__block"><img class="about__pict" src="img/about4.png" alt="">
+                    <p class="about__text">Не содержит глютен</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="trynow">
+              <div class="trynow__content">
+                <div class="trynow__picts"><img class="trynow__pict" src="img/trynow1.png" alt=""><img class="trynow__pict" src="img/trynow2.png" alt=""></div>
+                <div class="trynow__data">
+                  <h2 class="trynow__title">Попробуй прямо сейчас!</h2>
+                  <p class="trynow__text">Закажи две тубы со скидкой -30% всего за 1100₽</p><a class="trynow__button buttonlink" href="#">Заказать сейчас</a>
+                  <div class="trynow__delivery"><img class="trynow__deliverypict" src="img/delivery.svg" alt="">
+                    <p class="trynow__deliverytext">Бесплатная доставка</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="research">
+              <div class="research__content">
+                <h2 class="research__title">Посмотреть протокол исследований</h2>
+                <div class="research__data"><a class="research__link" href="#"><img class="research__pict" src="img/pdf.png" atl=""></a>
+                  <div class="research__info">
+                    <h3 class="research__subtitle">Nootris</h3>
+                    <p class="research__text">Прошёл испытания в сертифицированной лаборатории</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="when">
+              <div class="when__content">
+                <h2 class="when__title">В каких случаях обязательно пить Nootris</h2>
+                <div class="when__blocks">
+                  <div class="when__block"><img class="when__pict" src="img/when1.png" alt="">
+                    <h3 class="when__subtitle">Чувствуете первые признаки простуды</h3>
+                    <p class="when__text">Важно поддержать естественную защиту организма, а не только заглушать симптомы простуды натуральные компоненты помогут укреплять иммунитет, справиться к привычному ритму жизни.</p>
+                  </div>
+                  <div class="when__block"><img class="when__pict" src="img/when2.png" alt="">
+                    <h3 class="when__subtitle">Стрессовые<br>ситуации</h3>
+                    <p class="when__text">Компоненты напитка укрепляют нервную систему, помогают противостоять стрессам, стимулируют работу мозга.</p>
+                  </div>
+                  <div class="when__block"><img class="when__pict" src="img/when3.png" alt="">
+                    <h3 class="when__subtitle">Депрессию<br>и слабость</h3>
+                    <p class="when__text">Тонизирующие и&nbsp;восстанавливающие свойства компонентов помогают побороть анемичные состояния, когда совсем нечего делать.</p>
+                  </div>
+                </div>
+                <div class="when__block when__block_big"><img class="when__pict when__pict_big" src="img/when4.png" alt="">
+                  <p class="when__text when__text_big">А также настоятельно рекомендуем Nootris при: Cмене часовых поясов и климатических зон,<br>экзаменах и тяжелой работе, любых хронических истощающих состояниях и неблагоприятной обстановке окружающей среды.</p>
+                </div>
+              </div>
+            </section>
+            <section class="easy">
+              <div class="easy__content">
+                <h2 class="easy__title">Простота применения Nootris</h2>
+                <div class="easy__data">
+                  <div class="easy__info">
+                    <div class="easy__list">
+                      <p class="easy__text">1. Удобный формат</p>
+                      <p class="easy__text">2. Можно взять с собой</p>
+                      <p class="easy__text">3. Нейтральный вкус</p>
+                    </div>
+                    <p class="easy__text easy__text_small">Формат растворимых коктейлей позволяет не использовать химические красители, консерванты и стабилизаторы, необходимые для жидкой формы.</p>
+                  </div><img class="easy__pict" src="img/easy_pict.png" alt="">
+                </div>
+              </div>
+            </section>
+            <section class="curs">
+              <div class="curs__content">
+                <div class="curs__block">
+                  <h2 class="curs__title">1. Лайт-<span class="curs__highlight">курс:</span></h2>
+                  <div class="curs__data">
+                    <div class="curs__pictures"><img class="curs__pict" src="img/curs_pict.png" alt=""></div>
+                    <div class="curs__info">
+                      <div class="curs__line"><img class="curs__tablet" src="img/curs_tablet1.png" alt=""><img class="curs__tablet" src="img/curs_tablet1.png" alt=""><img class="curs__tablet" src="img/curs_tablet1.png" alt=""><img class="curs__tablet" src="img/curs_tablet1.png" alt=""><img class="curs__tablet" src="img/curs_tablet1.png" alt=""><img class="curs__tablet" src="img/curs_tablet1.png" alt=""><img class="curs__tablet" src="img/curs_tablet1.png" alt=""></div>
+                      <div class="curs__text">Минимальный курс, в каждой тубе содержится 7 коктейлей. Чтобы поддерживать себя в тонусе и меньше болеть, рекомендуется употреблять 1 порцию в день.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="curs__block">
+                  <h2 class="curs__title">2. Оптима-<span class="curs__highlight">курс:</span></h2>
+                  <div class="curs__data">
+                    <div class="curs__pictures"><img class="curs__pict" src="img/curs_pict.png" alt=""><img class="curs__pict" src="img/curs_pict.png" alt=""></div>
+                    <div class="curs__info">
+                      <div class="curs__line"><img class="curs__tablet" src="img/curs_tablet2.png" alt=""><img class="curs__tablet" src="img/curs_tablet2.png" alt=""><img class="curs__tablet" src="img/curs_tablet2.png" alt=""><img class="curs__tablet" src="img/curs_tablet2.png" alt=""><img class="curs__tablet" src="img/curs_tablet2.png" alt=""><img class="curs__tablet" src="img/curs_tablet2.png" alt=""><img class="curs__tablet" src="img/curs_tablet2.png" alt=""></div>
+                      <div class="curs__text">Актуально в периоды межсезонья и при регулярных физических активностях: прогулки, бег, фитнес. Рекомендуется употреблять 2 порции в день.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="curs__block">
+                  <h2 class="curs__title">3. Актив-<span class="curs__highlight">курс:</span></h2>
+                  <div class="curs__data">
+                    <div class="curs__pictures"><img class="curs__pict" src="img/curs_pict.png" alt=""><img class="curs__pict" src="img/curs_pict.png" alt=""><img class="curs__pict" src="img/curs_pict.png" alt=""></div>
+                    <div class="curs__info">
+                      <div class="curs__line"><img class="curs__tablet" src="img/curs_tablet3.png" alt=""><img class="curs__tablet" src="img/curs_tablet3.png" alt=""><img class="curs__tablet" src="img/curs_tablet3.png" alt=""><img class="curs__tablet" src="img/curs_tablet3.png" alt=""><img class="curs__tablet" src="img/curs_tablet3.png" alt=""><img class="curs__tablet" src="img/curs_tablet3.png" alt=""><img class="curs__tablet" src="img/curs_tablet3.png" alt=""></div>
+                      <div class="curs__text">Активный курс, начните прием при первых симптомах простуды&ensp;<br>и легкого недомогания. 3 порции в день.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="howuse"></div>
+            <div class="components"></div>
+            <div class="delirery"></div>
+            <div class="documents"></div>
+            <div class="whyonlyhere"></div>
+        </main>
+          <div class="footer"></div>
+      </div>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
