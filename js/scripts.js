@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".delirery__trueradio_checked").prop("checked",!0),$(".delirery__radiopart").click(function(){$(this).children(".delirery__trueradio").prop("checked",!0),$(".delirery__radio_active").removeClass("delirery__radio_active"),$(this).children(".delirery__radio").addClass("delirery__radio_active")})});
