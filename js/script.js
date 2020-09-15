@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    $('.items--mobile').slick({
+    $('.js-slider').slick({
         dots: true,
         infinite: true,
         speed: 300,
@@ -10,13 +10,9 @@ $(document).ready(function(){
         appendDots: $('.js-pagination')
     });
 
-    $('.form__text').click(function () {
-        $('.form__check-input').trigger('click');
-    });
+    $('.form__check-input').prop('checked', false);
 
-    $('.form__check-input').click(function () {
+    $('.form__check-input').click(function(){
         $('.form__btn').prop("disabled", !$('.form__btn').prop("disabled"));
-    })
-
-    $('.form__check-input').prop('checked',false);
+    });
 });

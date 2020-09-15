@@ -9,7 +9,6 @@
 
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/style.min.css">
-<!--    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>-->
     <title>Document</title>
 </head>
 <body>
@@ -26,8 +25,8 @@
                     <li class="nav__link">
                         <a href="#" class="nav__link-item">ВКонтакте</a>
                     </li>
-                    <li class="nav__link nav__link--last">
-                        <a href="#" class="nav__link-item">Телеграм</a>
+                    <li class="nav__link">
+                        <a href="#" class="nav__link-item nav__link-item--telegram">Телеграм</a>
                     </li>
                 </ul>
             </nav>
@@ -66,7 +65,7 @@
             </div>
             <div class="items__feature">
                 <h2 class="items__feature-title">
-                    Техподдержка 24/7
+                    ТЕХПОДДЕРЖКА 24/7
                 </h2>
                 <p class="items__feature-text">
                     Мы готовы решить любую вашу проблему за считанные минуты
@@ -80,8 +79,6 @@
                     У вас есть возможность подключить любой счетчик к любому landing page, субаккаунты, postback
                 </p>
             </div>
-
-
             <div class="items__feature">
                 <h2 class="items__feature-title">
                     Эксклюзивные информационные продукты
@@ -101,7 +98,7 @@
                 </h2>
             </div>
         </div>
-        <div class="features__inner items items--mobile">
+        <div class="features__inner items features__inner--mobile js-slider">
             <div class="items__feature">
                 <h2 class="items__feature-title">
                     Быстрый старт, лучшие условия
@@ -128,17 +125,16 @@
             </div>
             <div class="items__feature">
                 <h2 class="items__feature-title">
+                    Эксклюзивные информационные продукты
+                </h2>
+            </div>
+            <div class="items__feature">
+                <h2 class="items__feature-title">
                     Минимальный холд
                 </h2>
                 <p class="items__feature-text">
-                    оперативно делаем выплаты по запросу
+                    Оперативно делаем выплаты по запросу
                 </p>
-            </div>
-
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Эксклюзивные информационные продукты
-                </h2>
             </div>
             <div class="items__feature">
                 <h2 class="items__feature-title">
@@ -149,7 +145,7 @@
         <div class="features__arrows">
                 <img src="img/prev.png" alt="/" class="features__arrow js-prev">
                 <div class="features__pagination js-pagination"></div>
-                <img src="img/next.png" alt="" class="features__arrow js-next">
+                <img src="img/next.png" alt="" class="featrues__arrow js-next">
         </div>
     </div>
 </section>
@@ -157,28 +153,37 @@
 
 <section class="form">
     <div class="container">
+
+
         <form class="form__content" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
             <div class="form__feilds">
-                <input type="text" class="form__input" placeholder="Имя"  name="name"/>
-                <input type="text" class="form__input" placeholder="Почта" name="email"/>
-                <input type="text" class="form__input" placeholder="TG"  required="" name="custom_telegram"/>
-                <input class="form__btn" type="submit"  value="Оставить заявку" disabled/>
+                <!-- ФИО -->
+                <input type="text" class="form__input" placeholder="Имя" name="name">
+                <!-- Поле Email (обязательно) -->
+                <input type="text" class="form__input" placeholder="Почта" name="email">
+                <input type="text" class="form__input" placeholder="TG" name="custom_telegram" value="">
+                <!-- Токен списка -->
+                <!-- Получить API ID на: https://app.getresponse.com/campaign_list.html -->
                 <input type="hidden" name="campaign_token" value="QrHt8" />
+                <!-- Страница благодарности (по желанию) -->
+                <input type="hidden" name="thankyou_url" value="http://192.168.168.231:3000/success.html"/>
+                <!-- Forward form data to your page (optional) -->
+                <input type="hidden" name="forward_data" value="post" />
+                <!-- Кнопка подписаться -->
+                <input class="form__btn" type="submit" value="Оставить заявку" disabled/>
             </div>
             <div class="form__bottom">
                 <div class="form__check">
                     <input type="checkbox" id="checkbox" class="form__check-input">
-                    <label for="checkbox" class="form__check-box"></label>
+                    <label for="checkbox" class="form__text">Я соглашаюсь с Политикой конфиденциальности, даю согласие на обработку персональных данных и получение рассылок</label>
                 </div>
-                <p class="form__text">
-                    Я соглашаюсь с Политикой конфиденциальности, даю согласие на обработку персональных данных и получение рассылок
-                </p>
                 <img src="img/warning.png" alt="/" class="form__img">
                 <p class="form__info">
                     Обязательное поле
                 </p>
             </div>
         </form>
+
     </div>
 
 </section>
@@ -187,8 +192,9 @@
     <div class="container">
         <div class="footer__inner">
             <div class="footer__copyright">
-                <span class="footer__text">Почта: info@instasale.store</span>
-                <span class="footer__text">Политика конфиденциальности</span>
+                <span class="footer__text"><a class="footer__link" href="mailto:info@instasale.store"> Почта: info@instasale.store</a></span>
+                <span class="footer__text"> <a class="footer__link" href="#" target="_blank"> Политика конфиденциальности</a>
+                </span>
             </div>
             <div class="footer__logo">
                 <img src="img/logoBottom.png" alt="">
