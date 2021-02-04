@@ -1,213 +1,124 @@
-<!doctype html>
-<html lang="en">
-<head>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
-</head>
-<body>
-
-
-<header class="header">
-    <div class="container">
-        <div class="header__inner">
-            <div class="header__logo">
-                <img class="header__logo-img" src="img/logo.png" alt="/">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Luppy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <!--script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")-->
+  </head>
+  <body>
+      <section class="firstscreen">
+        <div class="firstscreen__content">
+          <div class="firstscreen__info"><a class="firstscreen__logolink" href="/"><img class="firstscreen__logo" src="/img/logo.svg" alt="Luppy"></a>
+            <div class="firstscreen__texts">
+              <h1 class="firstscreen__title">Become a pet sitter</h1>
+              <h2 class="firstscreen__subtitle">Pets need&ensp;<strong class="firstscreen__bold">attention</strong>&ensp;and&ensp;<strong class="firstscreen__bold">care</strong>&ensp;while their owners are on vacation. Become a sitter and&ensp;<strong class="firstscreen__bold">earn</strong>money.</h2><a class="firstscreen__link" href="#">Learn more</a>
             </div>
-            <nav class="header__nav nav">
-                <ul class="nav__list">
-                    <li class="nav__link">
-                        <a href="#" class="nav__link-item">ВКонтакте</a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#" class="nav__link-item nav__link-item--telegram">Телеграм</a>
-                    </li>
-                </ul>
-            </nav>
+          </div><img class="firstscreen__pict" src="/img/dog.png" alt="Dog">
         </div>
-    </div>
-</header>
-
-
-<section class="banner">
-    <div class="container">
-        <div class="banner__inner">
-            <div class="banner__content">
-                <h1 class="banner__title">
-                    Монетизируй свой трафик <br> и зарабатывай до 70% с каждого  <br> оплаченного заказа с помощью  <br> нашего агрегатора информационных  <br> продуктов
-                </h1>
-                <p class="banner__text">
-                    Оставь заявку сейчас и начни зарабатывать <br> на трендовой нише уже сегодня!
-                </p>
-            </div>
-            <img src="img/img.png" alt="" class="banner__img">
+      </section>
+      <section class="about">
+        <div class="about__content">
+          <div class="about__block"><img class="about__pict" src="/img/about1.svg" alt="">
+            <h2 class="about__title">Reliable sitters</h2>
+            <p class="about__text">Choose a partner who will take care of your pet based on reviews and ratings from other users</p>
+          </div>
+          <div class="about__block"><img class="about__pict" src="/img/about2.svg" alt="">
+            <h2 class="about__title">Guarantees</h2>
+            <p class="about__text">Luppy acts as an intermediary in payment, use the financial Deposit as a liability insurance</p>
+          </div>
+          <div class="about__block"><img class="about__pict" src="/img/about3.svg" alt="">
+            <h2 class="about__title">The App</h2>
+            <p class="about__text">The mobile app allows you to get information about your pet anywhere and at any time</p>
+          </div>
         </div>
-    </div>
-</section>
-
-
-<section class="features">
-    <div class="container">
-        <div class="features__inner items">
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Быстрый старт, лучшие условия
-                </h2>
-                <p class="items__feature-text">
-                    Высокие отчисления и топовые офферы сделают вашу прибыль максимальной
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    ТЕХПОДДЕРЖКА 24/7
-                </h2>
-                <p class="items__feature-text">
-                    Мы готовы решить любую вашу проблему за считанные минуты
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Полная аналитика
-                </h2>
-                <p class="items__feature-text">
-                    У вас есть возможность подключить любой счетчик к любому landing page, субаккаунты, postback
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Эксклюзивные информационные продукты
-                </h2>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Минимальный холд
-                </h2>
-                <p class="items__feature-text">
-                    Оперативно делаем выплаты по запросу
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Прямой рекламодатель
-                </h2>
-            </div>
+      </section>
+      <section class="applinks">
+        <div class="applinks__content"><img class="applinks__pict" src="/img/phone.png" alt="">
+          <div class="applinks__info">
+            <h2 class="applinks__title">Find a pet sitter or become one of them</h2>
+            <p class="applinks__text">All you need is to get our application. Just&ensp;<strong class="applinks__bold">install</strong>&ensp;it on your phone.</p>
+            <div class="applinks__links"><a class="applinks__link" href="#"><img class="applinks__linkpict" src="/img/appstore.png" alt="Appstore"></a><a class="applinks__link" href="#"><img class="applinks__linkpict" src="/img/googleplay.png" alt="Appstore"></a></div>
+          </div>
         </div>
-        <div class="features__inner items features__inner--mobile js-slider">
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Быстрый старт, лучшие условия
-                </h2>
-                <p class="items__feature-text">
-                    Высокие отчисления и топовые офферы сделают вашу прибыль максимальной
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    ТЕХПОДДЕРЖКА 24/7
-                </h2>
-                <p class="items__feature-text">
-                    Мы готовы решить любую вашу проблему за считанные минуты
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Полная аналитика
-                </h2>
-                <p class="items__feature-text">
-                    У вас есть возможность подключить любой счетчик к любому landing page, субаккаунты, postback
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Эксклюзивные информационные продукты
-                </h2>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Минимальный холд
-                </h2>
-                <p class="items__feature-text">
-                    Оперативно делаем выплаты по запросу
-                </p>
-            </div>
-            <div class="items__feature">
-                <h2 class="items__feature-title">
-                    Прямой рекламодатель
-                </h2>
-            </div>
+      </section>
+      <section class="info">
+        <div class="info__content">
+          <div class="info__block">
+            <div class="info__info">
+              <h2 class="info__title">Pet owner</h2>
+              <h3 class="info__subtitle">Be calm during a business trip or vacation</h3>
+              <p class="info__text">Find pet sitters near your home with good reviews who will take care of your pet for a few days during your trip. LUPPY provides mutual liability insurance by placing a financial Deposit that is returned when a happy pet returns home to its owner.</p>
+              <p class="info__text">Additional services such as photo and video reports, pet walking, special meals you can pay for and control in the app.</p>
+            </div><img class="info__pict info__pict_dog" src="/img/info1.svg" alt="">
+          </div>
+          <div class="info__block">
+            <div class="info__info info__info_notoppadding">
+              <h2 class="info__title">Pet sitter</h2>
+              <h3 class="info__subtitle">Help pet owners and earn money</h3>
+              <p class="info__text">Do you like animals? Get financial rewards by taking care of the Pets of people going on vacation or business trip. View profiles of animals and owners, read reviews and combine business with pleasure.</p>
+              <p class="info__text">Luppy provides mutual guarantees insuring the liability of all parties by making a financial Deposit, which is returned when a happy pet returns home to its owner.</p>
+            </div><img class="info__pict" src="/img/info2.svg" alt="">
+          </div>
         </div>
-        <div class="features__arrows">
-                <img src="img/prev.png" alt="/" class="features__arrow js-prev">
-                <div class="features__pagination js-pagination"></div>
-                <img src="img/next.png" alt="" class="featrues__arrow js-next">
+      </section>
+      <section class="videoblock">
+        <div class="videoblock__content">
+          <div class="videoblock__info">
+            <h2 class="videoblock__title">Lucky pets while You are on vacation or business trip</h2><a class="videoblock__link" href="#">
+              <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.9 6.78757C13.8333 7.32643 13.8333 8.67358 12.9 9.21244L3.6 14.5818C2.66666 15.1207 1.5 14.4471 1.5 13.3694L1.5 2.63064C1.5 1.55292 2.66667 0.879346 3.6 1.41821L12.9 6.78757Z" stroke="black" stroke-width="1.6"/>
+              </svg>
+              Watch video</a>
+          </div>
         </div>
-    </div>
-</section>
-
-
-<section class="form">
-    <div class="container">
-
-
-        <form class="form__content" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-            <div class="form__feilds">
-                <!-- ФИО -->
-                <input type="text" class="form__input" placeholder="Имя" name="name">
-                <!-- Поле Email (обязательно) -->
-                <input type="text" class="form__input" placeholder="Почта" name="email">
-                <input type="text" class="form__input" placeholder="TG" name="custom_telegram" value="">
-                <!-- Токен списка -->
-                <!-- Получить API ID на: https://app.getresponse.com/campaign_list.html -->
-                <input type="hidden" name="campaign_token" value="QrHt8" />
-                <!-- Страница благодарности (по желанию) -->
-                <input type="hidden" name="thankyou_url" value="success.html"/>
-                <!-- Forward form data to your page (optional) -->
-                <input type="hidden" name="forward_data" value="post" />
-                <!-- Кнопка подписаться -->
-                <input class="form__btn" type="submit" value="Оставить заявку" disabled/>
+      </section>
+      <section class="whitepaper">
+        <div class="whitepaper__content">
+          <h2 class="whitepaper__title">Whitepaper</h2>
+          <div class="whitepaper__whitepaper">
+            <div class="whitepaper__block"><img class="whitepaper__pict" src="/img/paw.svg" alt="">
+              <h2 class="whitepaper__year">2021</h2>
+              <p class="whitepaper__text">Launch of the platform and mobile application with the main functionality of the service</p>
             </div>
-            <div class="form__bottom">
-                <div class="form__check">
-                    <input type="checkbox" id="checkbox" class="form__check-input">
-                    <label for="checkbox" class="form__text">Я соглашаюсь с Политикой конфиденциальности, даю согласие на обработку персональных данных и получение рассылок</label>
-                </div>
-                <img src="img/warning.png" alt="/" class="form__img">
-                <p class="form__info">
-                    Обязательное поле
-                </p>
+            <div class="whitepaper__block">
+              <div class="whitepaper__circle"></div>
+              <h2 class="whitepaper__year">2022</h2>
+              <p class="whitepaper__text">Launch the social network functionality for Pets, find new friends for Your Pet in your location and walk together</p>
             </div>
-        </form>
-
-    </div>
-
-</section>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__inner">
-            <div class="footer__copyright">
-                <span class="footer__text"><a class="footer__link" href="mailto:info@instasale.store"> Почта: info@instasale.store</a></span>
-                <span class="footer__text"> <a class="footer__link" href="#" target="_blank"> Политика конфиденциальности</a>
-                </span>
+            <div class="whitepaper__block">
+              <div class="whitepaper__circle"></div>
+              <h2 class="whitepaper__year">2023</h2>
+              <p class="whitepaper__text">Launch of the functionality of the neural network for searching for missing pets by photo</p>
             </div>
-            <div class="footer__logo">
-                <img src="img/logoBottom.png" alt="">
-            </div>
+          </div>
         </div>
-    </div>
-</footer>
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script src="js/script.js"></script>
-
-</body>
+      </section>
+      <section class="form">
+        <div class="form__content">
+          <div class="form__info">
+            <h2 class="form__title">Be in touch</h2>
+            <p class="form__text">We’ll notify you about the launch and you get a Premium account</p>
+            <form class="form__form">
+              <input class="form__input" placeholder="enter your email">
+              <button class="form__button"></button>
+            </form>
+            <p class="form__text">for cooperation</p><a class="form__link" href="mailto:hello@luppy.club">hello@luppy.club</a>
+          </div><img class="form__pict" src="img/form.png" alt="">
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__content"><a class="footer__link" href="/">© Luppy Club</a>
+          <ul class="footer__list">
+            <li class="footer__item"><a class="footer__link" href="#">Facebook</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Instagram</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </footer>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
