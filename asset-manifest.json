@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kpssz/static/css/main.9a8afd5c.css",
+    "main.js": "/kpssz/static/js/main.6edff3c2.js",
+    "static/js/787.c318e71a.chunk.js": "/kpssz/static/js/787.c318e71a.chunk.js",
+    "static/media/footer_logo.svg": "/kpssz/static/media/footer_logo.6f47af9567549b0e150cecae818a9041.svg",
+    "static/media/logo.png": "/kpssz/static/media/logo.9805ec1871659fc3a1c5.png",
+    "index.html": "/kpssz/index.html",
+    "main.9a8afd5c.css.map": "/kpssz/static/css/main.9a8afd5c.css.map",
+    "main.6edff3c2.js.map": "/kpssz/static/js/main.6edff3c2.js.map",
+    "787.c318e71a.chunk.js.map": "/kpssz/static/js/787.c318e71a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a8afd5c.css",
+    "static/js/main.6edff3c2.js"
+  ]
+}
