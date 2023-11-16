@@ -1,1 +1,1 @@
-window.__RUNTIME_CONFIG__ = {"REACT_APP_API":"http://95.156.81.250:8071/kpssz"};
+window.__RUNTIME_CONFIG__ = {"REACT_APP_API":"https://95.156.81.250:8071/kpssz/","SSL_CRT_FILE":"./.cert/kpssz.pem","SSL_KEY_FILE":"./.cert/key.pem"};
